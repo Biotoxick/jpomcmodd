@@ -3,9 +3,9 @@
   "textures": {
     "all": "jpomc:blocks/textureboitier",
     "particle": "jpomc:blocks/textureboitier",
-    "1": "jpomc:blocks/texturevitre",
-    "2": "jpomc:blocks/textureboitier",
-    "3": "jpomc:blocks/vitre2test",
-    "missing": "jpomc:blocks/power"
+    "1": "jpomc:blocks/textureboitier",
+    "2": "jpomc:blocks/texturevitrea",
+    "3": "jpomc:blocks/power",
+    "4": "jpomc:blocks/textureautres"
   }
 }

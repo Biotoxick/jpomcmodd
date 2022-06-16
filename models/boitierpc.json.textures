@@ -2,10 +2,10 @@
   "mappings": {
     "default": {
       "map": {
-        "1": "texturevitre",
-        "2": "textureboitier",
-        "3": "vitre2test",
-        "missing": "power"
+        "1": "textureboitier",
+        "2": "texturevitrea",
+        "3": "power",
+        "4": "textureautres"
       },
       "name": "default"
     }
