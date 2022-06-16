@@ -1,0 +1,13 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "texturevitre",
+        "2": "textureboitier",
+        "3": "vitre2test",
+        "missing": "power"
+      },
+      "name": "default"
+    }
+  }
+}

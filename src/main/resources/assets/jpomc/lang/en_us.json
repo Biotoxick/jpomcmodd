@@ -8,5 +8,5 @@
   "itemGroup.tabjpomc": "JPOMC",
   "item.jpomc.graphic_card": "Graphic Card",
   "item.jpomc.processor": "Processor",
-  "item.jpomc.chassis": "Chassis"
+  "block.jpomc.chassis_vide": "Chassis Vide"
 }

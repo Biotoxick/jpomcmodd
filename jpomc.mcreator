@@ -1,15 +1,6 @@
 {
   "mod_elements": [
     {
-      "name": "Chassis",
-      "type": "item",
-      "sortid": 1,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "chassis",
-      "path": "~/computer/items"
-    },
-    {
       "name": "Motherboard",
       "type": "item",
       "sortid": 2,
@@ -88,6 +79,15 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "jpomc"
+    },
+    {
+      "name": "ChassisVide",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chassis_vide",
+      "path": "~/computer/items"
     }
   ],
   "variable_elements": [],
@@ -103,7 +103,7 @@
       "itemGroup.tabjpomc": "JPOMC",
       "item.jpomc.graphic_card": "Graphic Card",
       "item.jpomc.processor": "Processor",
-      "item.jpomc.chassis": "Chassis"
+      "block.jpomc.chassis_vide": "Chassis Vide"
     }
   },
   "foldersRoot": {

@@ -1,0 +1,11 @@
+{
+  "parent": "jpomc:custom/boitierpc",
+  "textures": {
+    "all": "jpomc:blocks/textureboitier",
+    "particle": "jpomc:blocks/textureboitier",
+    "1": "jpomc:blocks/texturevitre",
+    "2": "jpomc:blocks/textureboitier",
+    "3": "jpomc:blocks/vitre2test",
+    "missing": "jpomc:blocks/power"
+  }
+}
