@@ -1,0 +1,145 @@
+{
+  "mod_elements": [
+    {
+      "name": "Chassis",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chassis",
+      "path": "~/computer/items"
+    },
+    {
+      "name": "Motherboard",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "motherboard",
+      "path": "~/computer/items"
+    },
+    {
+      "name": "GraphicCard",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "graphic_card",
+      "path": "~/computer/items"
+    },
+    {
+      "name": "RAM",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ram",
+      "path": "~/computer/items"
+    },
+    {
+      "name": "Processor",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "processor",
+      "path": "~/computer/items"
+    },
+    {
+      "name": "Alimentation",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alimentation",
+      "path": "~/computer/items"
+    },
+    {
+      "name": "Aircooling",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aircooling",
+      "path": "~/computer/items"
+    },
+    {
+      "name": "Mouse",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mouse",
+      "path": "~/computer/items"
+    },
+    {
+      "name": "Clavier",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clavier",
+      "path": "~/computer/items"
+    },
+    {
+      "name": "JPOMC",
+      "type": "tab",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jpomc"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.jpomc.ram": "RAM",
+      "block.jpomc.clavier": "Clavier",
+      "item.jpomc.alimentation": "Alimentation",
+      "item.jpomc.aircooling": "Aircooling",
+      "item.jpomc.motherboard": "Motherboard",
+      "item.jpomc.mouse": "Mouse",
+      "itemGroup.tabjpomc": "JPOMC",
+      "item.jpomc.graphic_card": "Graphic Card",
+      "item.jpomc.processor": "Processor",
+      "item.jpomc.chassis": "Chassis"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "computer",
+        "children": [
+          {
+            "name": "items",
+            "children": []
+          },
+          {
+            "name": "procedures",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "jpomc",
+    "modName": "JPOMC",
+    "version": "1.0.0",
+    "author": "akhen, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "modElementsPackage": "jpomc",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200120510
+}

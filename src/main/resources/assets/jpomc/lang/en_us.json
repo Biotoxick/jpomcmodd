@@ -1,0 +1,12 @@
+{
+  "item.jpomc.ram": "RAM",
+  "block.jpomc.clavier": "Clavier",
+  "item.jpomc.alimentation": "Alimentation",
+  "item.jpomc.aircooling": "Aircooling",
+  "item.jpomc.motherboard": "Motherboard",
+  "item.jpomc.mouse": "Mouse",
+  "itemGroup.tabjpomc": "JPOMC",
+  "item.jpomc.graphic_card": "Graphic Card",
+  "item.jpomc.processor": "Processor",
+  "item.jpomc.chassis": "Chassis"
+}
