@@ -97,6 +97,35 @@
       "locked_code": false,
       "registry_name": "boitierpcgui",
       "path": "~/computer"
+    },
+    {
+      "name": "ChassisVideUpdateTick",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chassis_vide_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/computer/procedures"
     }
   ],
   "variable_elements": [],

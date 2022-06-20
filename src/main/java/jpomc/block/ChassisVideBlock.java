@@ -37,6 +37,7 @@ import net.minecraft.world.InteractionResult;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.Containers;
 import net.minecraft.server.level.ServerPlayer;
+import net.minecraft.server.level.ServerLevel;
 import net.minecraft.network.chat.TextComponent;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.FriendlyByteBuf;
@@ -47,10 +48,13 @@ import net.minecraft.client.renderer.ItemBlockRenderTypes;
 
 import jpomc.world.inventory.BoitierpcguiMenu;
 
+import jpomc.procedures.ChassisVideUpdateTickProcedure;
+
 import jpomc.init.JpomcModBlocks;
 
 import jpomc.block.entity.ChassisVideBlockEntity;
 
+import java.util.Random;
 import java.util.List;
 import java.util.Collections;
 
@@ -115,6 +119,23 @@ public class ChassisVideBlock extends Block implements SimpleWaterloggedBlock, E
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
 		return Collections.singletonList(new ItemStack(this, 1));
+	}
+
+	@Override
+	public void onPlace(BlockState blockstate, Level world, BlockPos pos, BlockState oldState, boolean moving) {
+		super.onPlace(blockstate, world, pos, oldState, moving);
+		world.scheduleTick(pos, this, 10);
+	}
+
+	@Override
+	public void tick(BlockState blockstate, ServerLevel world, BlockPos pos, Random random) {
+		super.tick(blockstate, world, pos, random);
+		int x = pos.getX();
+		int y = pos.getY();
+		int z = pos.getZ();
+
+		ChassisVideUpdateTickProcedure.execute(world, x, y, z);
+		world.scheduleTick(pos, this, 10);
 	}
 
 	@Override
