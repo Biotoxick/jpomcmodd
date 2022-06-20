@@ -24,8 +24,6 @@ import net.minecraft.core.BlockPos;
 
 import jpomc.world.inventory.BoitierpcguiMenu;
 
-import jpomc.init.JpomcModBlockEntities;
-
 import javax.annotation.Nullable;
 
 import java.util.stream.IntStream;

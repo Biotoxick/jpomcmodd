@@ -2,10 +2,6 @@
   "parent": "jpomc:custom/boitierpc",
   "textures": {
     "all": "jpomc:blocks/03",
-    "particle": "jpomc:blocks/03",
-    "1": "jpomc:blocks/textureboitier",
-    "2": "jpomc:blocks/vitre04",
-    "3": "jpomc:blocks/power",
-    "4": "jpomc:blocks/textureautres"
+    "particle": "jpomc:blocks/03"
   }
 }
