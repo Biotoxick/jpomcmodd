@@ -88,6 +88,15 @@
       "locked_code": false,
       "registry_name": "chassis_vide",
       "path": "~/computer/items"
+    },
+    {
+      "name": "Boitierpcgui",
+      "type": "gui",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "boitierpcgui",
+      "path": "~/computer"
     }
   ],
   "variable_elements": [],
