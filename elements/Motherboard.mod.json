@@ -2,13 +2,13 @@
   "_fv": 28,
   "_type": "item",
   "definition": {
-    "renderType": 0,
+    "renderType": 1,
     "texture": "cm",
-    "customModelName": "Normal",
+    "customModelName": "cartemere:default",
     "name": "Motherboard",
-    "rarity": "COMMON",
+    "rarity": "EPIC",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:JPOMC"
     },
     "stackSize": 64,
     "enchantability": 0,

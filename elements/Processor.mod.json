@@ -2,13 +2,13 @@
   "_fv": 28,
   "_type": "item",
   "definition": {
-    "renderType": 0,
+    "renderType": 1,
     "texture": "prc",
-    "customModelName": "Normal",
+    "customModelName": "processeurv2:default",
     "name": "Processor",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:JPOMC"
     },
     "stackSize": 64,
     "enchantability": 0,

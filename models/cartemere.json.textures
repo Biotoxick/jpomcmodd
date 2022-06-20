@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "1602",
+        "5": "carte-mere-msi-x570-a-pro-face",
+        "7": "cpu-dos-carte-mere"
+      },
+      "name": "default"
+    }
+  }
+}

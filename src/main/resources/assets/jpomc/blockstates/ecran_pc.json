@@ -1,18 +1,18 @@
 {
   "variants": {
     "facing=north": {
-      "model": "jpomc:block/chassisvide"
+      "model": "jpomc:block/ecran_pc"
     },
     "facing=east": {
-      "model": "jpomc:block/chassisvide",
+      "model": "jpomc:block/ecran_pc",
       "y": 90
     },
     "facing=south": {
-      "model": "jpomc:block/chassisvide",
+      "model": "jpomc:block/ecran_pc",
       "y": 180
     },
     "facing=west": {
-      "model": "jpomc:block/chassisvide",
+      "model": "jpomc:block/ecran_pc",
       "y": 270
     }
   }

@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "texture_pc",
+        "1": "vitre04",
+        "2": "y"
+      },
+      "name": "default"
+    }
+  }
+}

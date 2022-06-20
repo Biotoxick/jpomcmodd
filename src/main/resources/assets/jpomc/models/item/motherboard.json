@@ -1,6 +1,9 @@
 {
-  "parent": "item/generated",
+  "parent": "jpomc:custom/cartemere",
   "textures": {
-    "layer0": "jpomc:items/cm"
+    "1": "jpomc:blocks/1602",
+    "5": "jpomc:blocks/carte-mere-msi-x570-a-pro-face",
+    "7": "jpomc:blocks/cpu-dos-carte-mere",
+    "particle": "jpomc:items/cm"
   }
 }

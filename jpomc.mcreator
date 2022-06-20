@@ -126,12 +126,22 @@
       "locked_code": false,
       "registry_name": "chassisvide",
       "path": "~/computer/items"
+    },
+    {
+      "name": "EcranPc",
+      "type": "block",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ecran_pc",
+      "path": "~/computer/items/ecranPC"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "block.jpomc.ecran_pc": "Ecran Pc",
       "item.jpomc.ram": "RAM",
       "block.jpomc.clavier": "Clavier",
       "block.jpomc.chassisvide": "Chassisvide",

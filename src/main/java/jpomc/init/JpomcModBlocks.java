@@ -14,6 +14,7 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.level.block.Block;
 
+import jpomc.block.EcranPcBlock;
 import jpomc.block.ClavierBlock;
 import jpomc.block.ChassisvideBlock;
 
@@ -23,12 +24,15 @@ public class JpomcModBlocks {
 	public static final DeferredRegister<Block> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, JpomcMod.MODID);
 	public static final RegistryObject<Block> CLAVIER = REGISTRY.register("clavier", () -> new ClavierBlock());
 	public static final RegistryObject<Block> CHASSISVIDE = REGISTRY.register("chassisvide", () -> new ChassisvideBlock());
+	public static final RegistryObject<Block> ECRAN_PC = REGISTRY.register("ecran_pc", () -> new EcranPcBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {
 		@SubscribeEvent
 		public static void clientSetup(FMLClientSetupEvent event) {
 			ClavierBlock.registerRenderLayer();
+			ChassisvideBlock.registerRenderLayer();
+			EcranPcBlock.registerRenderLayer();
 		}
 	}
 }

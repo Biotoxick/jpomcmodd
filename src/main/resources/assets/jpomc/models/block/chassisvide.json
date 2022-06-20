@@ -1,12 +1,11 @@
 {
-  "parent": "block/cube",
+  "parent": "jpomc:custom/chassispc2",
   "textures": {
-    "down": "jpomc:blocks/1200-l-quelle-solution-si-le-bouton-power-du-nokia-lumia-1520-est-casse",
-    "up": "jpomc:blocks/1200-l-quelle-solution-si-le-bouton-power-du-nokia-lumia-1520-est-casse",
-    "north": "jpomc:blocks/1200-l-quelle-solution-si-le-bouton-power-du-nokia-lumia-1520-est-casse",
-    "east": "jpomc:blocks/1200-l-quelle-solution-si-le-bouton-power-du-nokia-lumia-1520-est-casse",
-    "south": "jpomc:blocks/1200-l-quelle-solution-si-le-bouton-power-du-nokia-lumia-1520-est-casse",
-    "west": "jpomc:blocks/1200-l-quelle-solution-si-le-bouton-power-du-nokia-lumia-1520-est-casse",
-    "particle": "jpomc:blocks/1200-l-quelle-solution-si-le-bouton-power-du-nokia-lumia-1520-est-casse"
+    "all": "jpomc:blocks/1200-l-quelle-solution-si-le-bouton-power-du-nokia-lumia-1520-est-casse",
+    "particle": "jpomc:blocks/1200-l-quelle-solution-si-le-bouton-power-du-nokia-lumia-1520-est-casse",
+    "1": "jpomc:blocks/1602",
+    "2": "jpomc:blocks/ld0005263446_2",
+    "3": "jpomc:blocks/texturevitrea",
+    "9": "jpomc:blocks/1200-l-quelle-solution-si-le-bouton-power-du-nokia-lumia-1520-est-casse"
   }
 }

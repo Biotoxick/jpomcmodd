@@ -1,0 +1,10 @@
+{
+  "parent": "jpomc:custom/ecran_pc_",
+  "textures": {
+    "all": "jpomc:blocks/texture_pc",
+    "particle": "jpomc:blocks/texture_pc",
+    "0": "jpomc:blocks/texture_pc",
+    "1": "jpomc:blocks/vitre04",
+    "2": "jpomc:blocks/y"
+  }
+}
