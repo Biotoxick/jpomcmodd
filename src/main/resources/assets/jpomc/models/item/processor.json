@@ -1,6 +1,8 @@
 {
-  "parent": "item/generated",
+  "parent": "jpomc:custom/processeurv2",
   "textures": {
-    "layer0": "jpomc:items/prc"
+    "4": "jpomc:blocks/images",
+    "8": "jpomc:blocks/processeur-amd-ryzen-9-3900x",
+    "particle": "jpomc:items/prc"
   }
 }

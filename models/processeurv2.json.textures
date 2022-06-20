@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "4": "images",
+        "8": "processeur-amd-ryzen-9-3900x"
+      },
+      "name": "default"
+    }
+  }
+}

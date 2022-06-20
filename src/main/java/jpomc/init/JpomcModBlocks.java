@@ -15,21 +15,18 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.world.level.block.Block;
 
 import jpomc.block.ClavierBlock;
-import jpomc.block.ChassisVideBlock;
 
 import jpomc.JpomcMod;
 
 public class JpomcModBlocks {
 	public static final DeferredRegister<Block> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, JpomcMod.MODID);
 	public static final RegistryObject<Block> CLAVIER = REGISTRY.register("clavier", () -> new ClavierBlock());
-	public static final RegistryObject<Block> CHASSIS_VIDE = REGISTRY.register("chassis_vide", () -> new ChassisVideBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {
 		@SubscribeEvent
 		public static void clientSetup(FMLClientSetupEvent event) {
 			ClavierBlock.registerRenderLayer();
-			ChassisVideBlock.registerRenderLayer();
 		}
 	}
 }

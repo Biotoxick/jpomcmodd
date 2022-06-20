@@ -28,15 +28,6 @@
       "path": "~/computer/items"
     },
     {
-      "name": "Processor",
-      "type": "item",
-      "sortid": 5,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "processor",
-      "path": "~/computer/items"
-    },
-    {
       "name": "Alimentation",
       "type": "item",
       "sortid": 6,
@@ -81,15 +72,6 @@
       "registry_name": "jpomc"
     },
     {
-      "name": "ChassisVide",
-      "type": "block",
-      "sortid": 11,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "chassis_vide",
-      "path": "~/computer/items"
-    },
-    {
       "name": "Boitierpcgui",
       "type": "gui",
       "sortid": 12,
@@ -126,6 +108,15 @@
         ]
       },
       "path": "~/computer/procedures"
+    },
+    {
+      "name": "Processor",
+      "type": "item",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "processor",
+      "path": "~/computer/items"
     }
   ],
   "variable_elements": [],
@@ -140,8 +131,7 @@
       "item.jpomc.mouse": "Mouse",
       "itemGroup.tabjpomc": "JPOMC",
       "item.jpomc.graphic_card": "Graphic Card",
-      "item.jpomc.processor": "Processor",
-      "block.jpomc.chassis_vide": "Chassis Vide"
+      "item.jpomc.processor": "Processor"
     }
   },
   "foldersRoot": {
@@ -152,7 +142,12 @@
         "children": [
           {
             "name": "items",
-            "children": []
+            "children": [
+              {
+                "name": "ecranPC",
+                "children": []
+              }
+            ]
           },
           {
             "name": "procedures",

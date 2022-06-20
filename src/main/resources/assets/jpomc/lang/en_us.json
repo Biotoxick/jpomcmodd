@@ -7,6 +7,5 @@
   "item.jpomc.mouse": "Mouse",
   "itemGroup.tabjpomc": "JPOMC",
   "item.jpomc.graphic_card": "Graphic Card",
-  "item.jpomc.processor": "Processor",
-  "block.jpomc.chassis_vide": "Chassis Vide"
+  "item.jpomc.processor": "Processor"
 }

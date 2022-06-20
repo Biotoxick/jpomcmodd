@@ -1,0 +1,68 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"4": "minecraftynov:processeur/images",
+		"8": "processeur/processeur-amd-ryzen-9-3900x"
+	},
+	"elements": [
+		{
+			"name": "cpu",
+			"from": [8, 8, 8],
+			"to": [9.4, 9.3, 8.1],
+			"rotation": {"angle": 0, "axis": "y", "origin": [10.4, 12.45, 11.15]},
+			"faces": {
+				"north": {"uv": [1.57205, 2.68996, 14.2559, 13.10786], "texture": "#8"},
+				"east": {"uv": [1.57205, 2.68996, 14.2559, 13.10786], "texture": "#8"},
+				"south": {"uv": [3.2292, 0.57567, 12.82732, 15.62215], "texture": "#4"},
+				"west": {"uv": [1.57205, 2.68996, 14.2559, 13.10786], "texture": "#8"},
+				"up": {"uv": [1.57205, 2.68996, 14.2559, 13.10786], "texture": "#8"},
+				"down": {"uv": [1.57205, 2.68996, 14.2559, 13.10786], "texture": "#8"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [-1, -0.25, 0.25],
+			"scale": [2, 2, 2]
+		},
+		"thirdperson_lefthand": {
+			"translation": [1.5, -0.25, 0.25],
+			"scale": [2, 2, 2]
+		},
+		"firstperson_righthand": {
+			"rotation": [1, -21, 0],
+			"translation": [4, -4.25, -5.75],
+			"scale": [2, 2, 2]
+		},
+		"firstperson_lefthand": {
+			"rotation": [1, -21, 0],
+			"translation": [4, -5, -5.75],
+			"scale": [2, 2, 2]
+		},
+		"ground": {
+			"rotation": [1, -21, 0],
+			"translation": [-1, -1, -1],
+			"scale": [2, 2, 2]
+		},
+		"gui": {
+			"rotation": [0, -180, 0],
+			"translation": [3, -2, -0.25],
+			"scale": [4, 4, 4]
+		},
+		"head": {
+			"translation": [-1.25, 5.5, -7.5]
+		},
+		"fixed": {
+			"translation": [-2.75, -2.25, -0.25],
+			"scale": [4, 4, 4]
+		}
+	},
+	"groups": [
+		{
+			"name": "cpu",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [0]
+		}
+	]
+}

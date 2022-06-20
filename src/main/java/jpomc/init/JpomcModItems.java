@@ -28,12 +28,11 @@ public class JpomcModItems {
 	public static final RegistryObject<Item> MOTHERBOARD = REGISTRY.register("motherboard", () -> new MotherboardItem());
 	public static final RegistryObject<Item> GRAPHIC_CARD = REGISTRY.register("graphic_card", () -> new GraphicCardItem());
 	public static final RegistryObject<Item> RAM = REGISTRY.register("ram", () -> new RAMItem());
-	public static final RegistryObject<Item> PROCESSOR = REGISTRY.register("processor", () -> new ProcessorItem());
 	public static final RegistryObject<Item> ALIMENTATION = REGISTRY.register("alimentation", () -> new AlimentationItem());
 	public static final RegistryObject<Item> AIRCOOLING = REGISTRY.register("aircooling", () -> new AircoolingItem());
 	public static final RegistryObject<Item> MOUSE = REGISTRY.register("mouse", () -> new MouseItem());
 	public static final RegistryObject<Item> CLAVIER = block(JpomcModBlocks.CLAVIER, JpomcModTabs.TAB_JPOMC);
-	public static final RegistryObject<Item> CHASSIS_VIDE = block(JpomcModBlocks.CHASSIS_VIDE, JpomcModTabs.TAB_JPOMC);
+	public static final RegistryObject<Item> PROCESSOR = REGISTRY.register("processor", () -> new ProcessorItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
