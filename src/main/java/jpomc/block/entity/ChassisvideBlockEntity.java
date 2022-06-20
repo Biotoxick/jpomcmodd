@@ -96,7 +96,7 @@ public class ChassisvideBlockEntity extends RandomizableContainerBlockEntity imp
 
 	@Override
 	public Component getDisplayName() {
-		return new TextComponent("Chassisvide");
+		return new TextComponent("Chassis Vide");
 	}
 
 	@Override

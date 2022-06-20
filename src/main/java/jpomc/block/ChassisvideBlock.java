@@ -129,7 +129,7 @@ public class ChassisvideBlock extends Block implements SimpleWaterloggedBlock, E
 			NetworkHooks.openGui(player, new MenuProvider() {
 				@Override
 				public Component getDisplayName() {
-					return new TextComponent("Chassisvide");
+					return new TextComponent("Chassis Vide");
 				}
 
 				@Override
