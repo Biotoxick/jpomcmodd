@@ -33,7 +33,7 @@ public class JpomcModItems {
 	public static final RegistryObject<Item> AIRCOOLING = REGISTRY.register("aircooling", () -> new AircoolingItem());
 	public static final RegistryObject<Item> MOUSE = REGISTRY.register("mouse", () -> new MouseItem());
 	public static final RegistryObject<Item> CLAVIER = block(JpomcModBlocks.CLAVIER, JpomcModTabs.TAB_JPOMC);
-	public static final RegistryObject<Item> CHASSIS_VIDE = block(JpomcModBlocks.CHASSIS_VIDE, JpomcModTabs.TAB_JPOMC);
+	public static final RegistryObject<Item> CHASSISVIDE = block(JpomcModBlocks.CHASSISVIDE, JpomcModTabs.TAB_JPOMC);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

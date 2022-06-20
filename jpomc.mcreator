@@ -117,6 +117,15 @@
       "locked_code": false,
       "registry_name": "processor",
       "path": "~/computer/items"
+    },
+    {
+      "name": "Chassisvide",
+      "type": "block",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chassisvide",
+      "path": "~/computer/items"
     }
   ],
   "variable_elements": [],
@@ -125,6 +134,7 @@
     "en_us": {
       "item.jpomc.ram": "RAM",
       "block.jpomc.clavier": "Clavier",
+      "block.jpomc.chassisvide": "Chassisvide",
       "item.jpomc.alimentation": "Alimentation",
       "item.jpomc.aircooling": "Aircooling",
       "item.jpomc.motherboard": "Motherboard",
