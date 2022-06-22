@@ -5,8 +5,8 @@
   "block.jpomc.chassisvide": "Chassis Vide",
   "item.jpomc.alimentation": "Alimentation",
   "item.jpomc.aircooling": "Aircooling",
+  "block.jpomc.mouse_2": "Mouse 2",
   "item.jpomc.motherboard": "Motherboard",
-  "item.jpomc.mouse": "Mouse",
   "itemGroup.tabjpomc": "JPOMC",
   "item.jpomc.graphic_card": "Graphic Card",
   "item.jpomc.processor": "Processor"

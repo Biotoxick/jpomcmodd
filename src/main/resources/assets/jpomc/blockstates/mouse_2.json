@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "jpomc:block/mouse_2"
+    },
+    "facing=east": {
+      "model": "jpomc:block/mouse_2",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "jpomc:block/mouse_2",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "jpomc:block/mouse_2",
+      "y": 270
+    }
+  }
+}

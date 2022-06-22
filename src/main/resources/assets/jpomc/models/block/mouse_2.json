@@ -1,0 +1,8 @@
+{
+  "parent": "jpomc:custom/mouse01",
+  "textures": {
+    "all": "jpomc:blocks/y",
+    "particle": "jpomc:blocks/y",
+    "0": "jpomc:blocks/423-4236048_razer-mamba-mouse-hd-png-download"
+  }
+}
