@@ -1,5 +1,5 @@
 {
-  "parent": "jpomc:custom/mouse01",
+  "parent": "jpomc:custom/mousefinal",
   "textures": {
     "all": "jpomc:blocks/y",
     "particle": "jpomc:blocks/y",
