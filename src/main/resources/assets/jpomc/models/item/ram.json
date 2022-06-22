@@ -1,6 +1,8 @@
 {
-  "parent": "item/generated",
+  "parent": "jpomc:custom/ram",
   "textures": {
-    "layer0": "jpomc:items/rm"
+    "0": "jpomc:blocks/ld0005427833_2_0005572126_0005572137_0005572159",
+    "1": "jpomc:blocks/ld0022222",
+    "particle": "jpomc:items/rm"
   }
 }

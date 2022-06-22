@@ -1,6 +1,10 @@
 {
-  "parent": "item/generated",
+  "parent": "jpomc:custom/aero",
   "textures": {
-    "layer0": "jpomc:items/vt"
+    "2": "jpomc:blocks/d_nq_np_967157-mlb41201095922_032020-o",
+    "3": "jpomc:blocks/das8nczuwaavwog",
+    "4": "jpomc:blocks/master",
+    "5": "jpomc:blocks/couvertures-en-molleton-bronze-ou-cuivre-metallique-texture.jpg",
+    "particle": "jpomc:items/vt"
   }
 }

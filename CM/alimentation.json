@@ -1,0 +1,76 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "alimentation/alimonoff",
+		"2": "alimentation/u0s0vbcn4dhh48lft5b6edlbwqdpomiv",
+		"3": "alimentation/04_test_zasilacza_be_quiet_straight_power_11_650w_cicho_sza_nc6_b",
+		"4": "alimentation/ventilation",
+		"particle": "alimentation/alimonoff"
+	},
+	"elements": [
+		{
+			"name": "block alim",
+			"from": [6.2, 7.1, 6.3],
+			"to": [9.7, 9.9, 9.9],
+			"faces": {
+				"north": {"uv": [1.26, 0.9, 14.43, 13.32], "texture": "#2"},
+				"east": {"uv": [0.26756, 0.26756, 15.57191, 15.69632], "texture": "#0"},
+				"south": {"uv": [2.47537, 9.2591, 0.45075, 14.52677], "texture": "#3"},
+				"west": {"uv": [0.40257, 0.31692, 15.68051, 15.38244], "texture": "#3"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#4"},
+				"down": {"uv": [8.67666, 7.68308, 12.26231, 11.54347], "texture": "#3"}
+			}
+		},
+		{
+			"from": [10.00761, 7.7, 4.96173],
+			"to": [10.30761, 8.1, 5.56173],
+			"rotation": {"angle": 22.5, "axis": "y", "origin": [14.65761, 1.8, 7.36173]},
+			"faces": {
+				"north": {"uv": [9.25753, 0.58863, 11.19532, 1.41672], "texture": "#0"},
+				"east": {"uv": [11.45151, 10.43478, 13.71037, 12.54716], "texture": "#0"},
+				"south": {"uv": [9.25753, 0.58863, 11.19532, 1.41672], "texture": "#0"},
+				"west": {"uv": [9.25753, 0.58863, 11.19532, 1.41672], "texture": "#0"},
+				"up": {"uv": [9.25753, 0.58863, 11.19532, 1.41672], "texture": "#0"},
+				"down": {"uv": [9.25753, 0.58863, 11.19532, 1.41672], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, -0.5, 0.25]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, -0.5, 0.25]
+		},
+		"firstperson_righthand": {
+			"translation": [0, 0.75, 0.25]
+		},
+		"firstperson_lefthand": {
+			"translation": [0, 0.75, 0.25]
+		},
+		"ground": {
+			"scale": [2, 2, 2]
+		},
+		"gui": {
+			"rotation": [21, 45, 0],
+			"translation": [0, -0.5, 0.25],
+			"scale": [2, 2, 2]
+		},
+		"head": {
+			"translation": [-1.25, 7, -1.25]
+		},
+		"fixed": {
+			"rotation": [-90, 0, 0],
+			"translation": [0, 0.75, 2],
+			"scale": [2, 2, 2]
+		}
+	},
+	"groups": [
+		{
+			"name": "alimentation",
+			"origin": [8, 8, 8],
+			"color": 0,
+			"children": [0, 1]
+		}
+	]
+}

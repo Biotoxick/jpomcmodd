@@ -1,6 +1,10 @@
 {
-  "parent": "item/generated",
+  "parent": "jpomc:custom/alimentation",
   "textures": {
-    "layer0": "jpomc:items/ali"
+    "0": "jpomc:blocks/alimonoff",
+    "2": "jpomc:blocks/u0s0vbcn4dhh48lft5b6edlbwqdpomiv",
+    "3": "jpomc:blocks/04_test_zasilacza_be_quiet_straight_power_11_650w_cicho_sza_nc6_b",
+    "4": "jpomc:blocks/ventilation",
+    "particle": "jpomc:items/ali"
   }
 }

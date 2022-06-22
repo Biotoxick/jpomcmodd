@@ -1,6 +1,8 @@
 {
-  "parent": "item/generated",
+  "parent": "jpomc:custom/cg",
   "textures": {
-    "layer0": "jpomc:items/gc"
+    "4": "jpomc:blocks/nvidia-geforce-rtx-3090.front.variety.1601987742637",
+    "5": "jpomc:blocks/ports-displayport-carte-graphique-nvidia-geforce-rtx-3060-ti-",
+    "particle": "jpomc:items/gc"
   }
 }
