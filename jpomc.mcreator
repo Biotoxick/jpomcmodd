@@ -46,15 +46,6 @@
       "path": "~/computer/items"
     },
     {
-      "name": "Clavier",
-      "type": "block",
-      "sortid": 9,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "clavier",
-      "path": "~/computer/items"
-    },
-    {
       "name": "JPOMC",
       "type": "tab",
       "sortid": 10,
@@ -157,7 +148,6 @@
       "itemGroup.tabjpomc": "JPOMC",
       "item.jpomc.graphic_card": "Graphic Card",
       "item.jpomc.processor": "Processor",
-      "block.jpomc.clavier": "Clavier",
       "item.jpomc.alimentation": "Alimentation",
       "block.jpomc.mouse_2": "Mouse 2",
       "item.jpomc.motherboard": "Motherboard",

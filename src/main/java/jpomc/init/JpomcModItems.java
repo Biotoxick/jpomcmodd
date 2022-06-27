@@ -29,7 +29,6 @@ public class JpomcModItems {
 	public static final RegistryObject<Item> RAM = REGISTRY.register("ram", () -> new RAMItem());
 	public static final RegistryObject<Item> ALIMENTATION = REGISTRY.register("alimentation", () -> new AlimentationItem());
 	public static final RegistryObject<Item> AIRCOOLING = REGISTRY.register("aircooling", () -> new AircoolingItem());
-	public static final RegistryObject<Item> CLAVIER = block(JpomcModBlocks.CLAVIER, JpomcModTabs.TAB_JPOMC);
 	public static final RegistryObject<Item> PROCESSOR = REGISTRY.register("processor", () -> new ProcessorItem());
 	public static final RegistryObject<Item> CHASSISVIDE = block(JpomcModBlocks.CHASSISVIDE, JpomcModTabs.TAB_JPOMC);
 	public static final RegistryObject<Item> ECRAN_PC = block(JpomcModBlocks.ECRAN_PC, JpomcModTabs.TAB_JPOMC);

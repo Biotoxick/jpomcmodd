@@ -11,15 +11,13 @@ import net.minecraft.sounds.SoundSource;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.BlockPos;
 
-import jpomc.init.JpomcModBlocks;
-
 import java.util.concurrent.atomic.AtomicInteger;
 
 public class ChassisVideUpdateTickProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {
 		if ((world.getBlockState(new BlockPos(x - 1, y, z))).getBlock() == Blocks.ACACIA_PLANKS
 				&& (world.getBlockState(new BlockPos(x - 2, y, z + 1))).getBlock() == Blocks.NETHERITE_BLOCK
-				&& (world.getBlockState(new BlockPos(x - 2, y, z))).getBlock() == JpomcModBlocks.CLAVIER.get()) {
+				&& (world.getBlockState(new BlockPos(x - 2, y, z))).getBlock() == Blocks.AZALEA_LEAVES) {
 			if (new Object() {
 				public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
 					AtomicInteger _retval = new AtomicInteger(0);
