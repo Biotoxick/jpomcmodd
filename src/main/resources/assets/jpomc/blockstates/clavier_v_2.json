@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "jpomc:block/clavier_v_2"
+    },
+    "facing=east": {
+      "model": "jpomc:block/clavier_v_2",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "jpomc:block/clavier_v_2",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "jpomc:block/clavier_v_2",
+      "y": 270
+    }
+  }
+}

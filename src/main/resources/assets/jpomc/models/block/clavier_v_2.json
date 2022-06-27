@@ -1,0 +1,9 @@
+{
+  "parent": "jpomc:custom/clavierv2",
+  "textures": {
+    "all": "jpomc:blocks/1200-l-quelle-solution-si-le-bouton-power-du-nokia-lumia-1520-est-casse",
+    "particle": "jpomc:blocks/1200-l-quelle-solution-si-le-bouton-power-du-nokia-lumia-1520-est-casse",
+    "1": "jpomc:blocks/autocollants-de-cles-clavier-vecteur-le-d-ordinateur-boutonne-verrouille-calibre-123883154",
+    "2": "jpomc:blocks/v2"
+  }
+}

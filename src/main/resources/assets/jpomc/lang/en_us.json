@@ -1,13 +1,14 @@
 {
   "block.jpomc.ecran_pc": "Ecran Pc",
   "item.jpomc.ram": "RAM",
-  "block.jpomc.clavier": "Clavier",
   "block.jpomc.chassisvide": "Chassis Vide",
-  "item.jpomc.alimentation": "Alimentation",
   "item.jpomc.aircooling": "Aircooling",
-  "block.jpomc.mouse_2": "Mouse 2",
-  "item.jpomc.motherboard": "Motherboard",
   "itemGroup.tabjpomc": "JPOMC",
   "item.jpomc.graphic_card": "Graphic Card",
-  "item.jpomc.processor": "Processor"
+  "item.jpomc.processor": "Processor",
+  "block.jpomc.clavier": "Clavier",
+  "item.jpomc.alimentation": "Alimentation",
+  "block.jpomc.mouse_2": "Mouse 2",
+  "item.jpomc.motherboard": "Motherboard",
+  "block.jpomc.clavier_v_2": "Clavier"
 }
