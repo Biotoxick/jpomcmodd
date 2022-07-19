@@ -1,0 +1,28 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "11": "master",
+        "12": "couvertures-en-molleton-bronze-ou-cuivre-metallique-texture.jpg",
+        "13": "alimonoff",
+        "14": "04_test_zasilacza_be_quiet_straight_power_11_650w_cicho_sza_nc6_b",
+        "15": "u0s0vbcn4dhh48lft5b6edlbwqdpomiv",
+        "16": "ventilation",
+        "17": "nvidia-geforce-rtx-3090.front.variety.1601987742637",
+        "18": "ports-displayport-carte-graphique-nvidia-geforce-rtx-3060-ti-",
+        "19": "ancien-ordinateur-personnel-pc-panneau-arriere-epcn8b",
+        "1": "1200-l-quelle-solution-si-le-bouton-power-du-nokia-lumia-1520-est-casse",
+        "2": "texturevitrea",
+        "3": "1602",
+        "4": "carte-mere-msi-x570-a-pro-face",
+        "5": "cpu-dos-carte-mere",
+        "6": "ld0005263446_2",
+        "7": "ld0022222",
+        "8": "ld0005427833_2_0005572126_0005572137_0005572159",
+        "9": "processeur-amd-ryzen-9-3900x",
+        "10": "d_nq_np_967157-mlb41201095922_032020-o"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "jpomc:block/p_cfull"
+    },
+    "facing=east": {
+      "model": "jpomc:block/p_cfull",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "jpomc:block/p_cfull",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "jpomc:block/p_cfull",
+      "y": 270
+    }
+  }
+}

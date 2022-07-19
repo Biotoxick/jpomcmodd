@@ -135,6 +135,15 @@
       "locked_code": false,
       "registry_name": "clavier_v_2",
       "path": "~/computer/items"
+    },
+    {
+      "name": "PCfull",
+      "type": "block",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "p_cfull",
+      "path": "~/computer/items"
     }
   ],
   "variable_elements": [],
@@ -142,6 +151,7 @@
   "language_map": {
     "en_us": {
       "block.jpomc.ecran_pc": "Ecran Pc",
+      "block.jpomc.p_cfull": "PCfull",
       "item.jpomc.ram": "RAM",
       "block.jpomc.chassisvide": "Chassis Vide",
       "item.jpomc.aircooling": "Aircooling",

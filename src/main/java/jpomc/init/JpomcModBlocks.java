@@ -14,6 +14,7 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.level.block.Block;
 
+import jpomc.block.PCfullBlock;
 import jpomc.block.Mouse2Block;
 import jpomc.block.EcranPcBlock;
 import jpomc.block.ClavierV2Block;
@@ -27,6 +28,7 @@ public class JpomcModBlocks {
 	public static final RegistryObject<Block> ECRAN_PC = REGISTRY.register("ecran_pc", () -> new EcranPcBlock());
 	public static final RegistryObject<Block> MOUSE_2 = REGISTRY.register("mouse_2", () -> new Mouse2Block());
 	public static final RegistryObject<Block> CLAVIER_V_2 = REGISTRY.register("clavier_v_2", () -> new ClavierV2Block());
+	public static final RegistryObject<Block> P_CFULL = REGISTRY.register("p_cfull", () -> new PCfullBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {
@@ -36,6 +38,7 @@ public class JpomcModBlocks {
 			EcranPcBlock.registerRenderLayer();
 			Mouse2Block.registerRenderLayer();
 			ClavierV2Block.registerRenderLayer();
+			PCfullBlock.registerRenderLayer();
 		}
 	}
 }
