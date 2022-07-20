@@ -1,11 +1,11 @@
 {
-  "parent": "jpomc:custom/chassispc2",
+  "parent": "jpomc:custom/chassispcpasfull",
   "textures": {
     "all": "jpomc:blocks/1200-l-quelle-solution-si-le-bouton-power-du-nokia-lumia-1520-est-casse",
     "particle": "jpomc:blocks/1200-l-quelle-solution-si-le-bouton-power-du-nokia-lumia-1520-est-casse",
-    "1": "jpomc:blocks/1602",
-    "2": "jpomc:blocks/ld0005263446_2",
-    "3": "jpomc:blocks/texturevitrea",
-    "9": "jpomc:blocks/1200-l-quelle-solution-si-le-bouton-power-du-nokia-lumia-1520-est-casse"
+    "0": "jpomc:blocks/1200-l-quelle-solution-si-le-bouton-power-du-nokia-lumia-1520-est-casse",
+    "1": "jpomc:blocks/ld0005263446_2",
+    "2": "jpomc:blocks/ancien-ordinateur-personnel-pc-panneau-arriere-epcn8b",
+    "3": "jpomc:blocks/couvertures-en-molleton-bronze-ou-cuivre-metallique-texture.jpg"
   }
 }
