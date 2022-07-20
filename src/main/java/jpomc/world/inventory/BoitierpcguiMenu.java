@@ -37,7 +37,7 @@ public class BoitierpcguiMenu extends AbstractContainerMenu implements Supplier<
 		super(JpomcModMenus.BOITIERPCGUI, id);
 		this.entity = inv.player;
 		this.world = inv.player.level;
-		this.internal = new ItemStackHandler(9);
+		this.internal = new ItemStackHandler(7);
 		BlockPos pos = null;
 		if (extraData != null) {
 			pos = extraData.readBlockPos();
@@ -75,29 +75,25 @@ public class BoitierpcguiMenu extends AbstractContainerMenu implements Supplier<
 				}
 			}
 		}
-		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 7, 17) {
+		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 61, 48) {
 		}));
-		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 25, 17) {
+		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 79, 48) {
 		}));
-		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 43, 17) {
+		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 88, 30) {
 		}));
-		this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 61, 17) {
+		this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 97, 48) {
 		}));
-		this.customSlots.put(4, this.addSlot(new SlotItemHandler(internal, 4, 79, 17) {
+		this.customSlots.put(4, this.addSlot(new SlotItemHandler(internal, 4, 88, 66) {
 		}));
-		this.customSlots.put(5, this.addSlot(new SlotItemHandler(internal, 5, 97, 17) {
+		this.customSlots.put(5, this.addSlot(new SlotItemHandler(internal, 5, 25, 93) {
 		}));
-		this.customSlots.put(6, this.addSlot(new SlotItemHandler(internal, 6, 115, 17) {
-		}));
-		this.customSlots.put(7, this.addSlot(new SlotItemHandler(internal, 7, 133, 17) {
-		}));
-		this.customSlots.put(8, this.addSlot(new SlotItemHandler(internal, 8, 151, 17) {
+		this.customSlots.put(6, this.addSlot(new SlotItemHandler(internal, 6, 133, 93) {
 		}));
 		for (int si = 0; si < 3; ++si)
 			for (int sj = 0; sj < 9; ++sj)
-				this.addSlot(new Slot(inv, sj + (si + 1) * 9, 0 + 8 + sj * 18, 0 + 84 + si * 18));
+				this.addSlot(new Slot(inv, sj + (si + 1) * 9, 0 + 8 + sj * 18, 44 + 84 + si * 18));
 		for (int si = 0; si < 9; ++si)
-			this.addSlot(new Slot(inv, si, 0 + 8 + si * 18, 0 + 142));
+			this.addSlot(new Slot(inv, si, 0 + 8 + si * 18, 44 + 142));
 	}
 
 	@Override
@@ -112,18 +108,18 @@ public class BoitierpcguiMenu extends AbstractContainerMenu implements Supplier<
 		if (slot != null && slot.hasItem()) {
 			ItemStack itemstack1 = slot.getItem();
 			itemstack = itemstack1.copy();
-			if (index < 9) {
-				if (!this.moveItemStackTo(itemstack1, 9, this.slots.size(), true)) {
+			if (index < 7) {
+				if (!this.moveItemStackTo(itemstack1, 7, this.slots.size(), true)) {
 					return ItemStack.EMPTY;
 				}
 				slot.onQuickCraft(itemstack1, itemstack);
-			} else if (!this.moveItemStackTo(itemstack1, 0, 9, false)) {
-				if (index < 9 + 27) {
-					if (!this.moveItemStackTo(itemstack1, 9 + 27, this.slots.size(), true)) {
+			} else if (!this.moveItemStackTo(itemstack1, 0, 7, false)) {
+				if (index < 7 + 27) {
+					if (!this.moveItemStackTo(itemstack1, 7 + 27, this.slots.size(), true)) {
 						return ItemStack.EMPTY;
 					}
 				} else {
-					if (!this.moveItemStackTo(itemstack1, 9, 9 + 27, false)) {
+					if (!this.moveItemStackTo(itemstack1, 7, 7 + 27, false)) {
 						return ItemStack.EMPTY;
 					}
 				}

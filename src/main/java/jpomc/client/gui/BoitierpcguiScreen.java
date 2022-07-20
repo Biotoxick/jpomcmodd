@@ -30,7 +30,7 @@ public class BoitierpcguiScreen extends AbstractContainerScreen<BoitierpcguiMenu
 		this.z = container.z;
 		this.entity = container.entity;
 		this.imageWidth = 176;
-		this.imageHeight = 166;
+		this.imageHeight = 210;
 	}
 
 	private static final ResourceLocation texture = new ResourceLocation("jpomc:textures/boitierpcgui.png");
