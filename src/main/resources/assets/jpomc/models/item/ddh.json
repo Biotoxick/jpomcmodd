@@ -1,0 +1,7 @@
+{
+  "parent": "jpomc:custom/ddh",
+  "textures": {
+    "0": "jpomc:blocks/disque_dur",
+    "particle": "jpomc:items/ali"
+  }
+}

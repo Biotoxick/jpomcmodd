@@ -144,6 +144,15 @@
       "locked_code": false,
       "registry_name": "p_cfull",
       "path": "~/computer/items"
+    },
+    {
+      "name": "Ddh",
+      "type": "item",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ddh",
+      "path": "~/computer/items"
     }
   ],
   "variable_elements": [],
@@ -155,6 +164,7 @@
       "item.jpomc.ram": "RAM",
       "block.jpomc.chassisvide": "Chassis Vide",
       "item.jpomc.aircooling": "Aircooling",
+      "item.jpomc.ddh": "Ddh",
       "itemGroup.tabjpomc": "JPOMC",
       "item.jpomc.graphic_card": "Graphic Card",
       "item.jpomc.processor": "Processor",

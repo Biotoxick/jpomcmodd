@@ -17,6 +17,7 @@ import jpomc.item.RAMItem;
 import jpomc.item.ProcessorItem;
 import jpomc.item.MotherboardItem;
 import jpomc.item.GraphicCardItem;
+import jpomc.item.DdhItem;
 import jpomc.item.AlimentationItem;
 import jpomc.item.AircoolingItem;
 
@@ -35,6 +36,7 @@ public class JpomcModItems {
 	public static final RegistryObject<Item> MOUSE_2 = block(JpomcModBlocks.MOUSE_2, JpomcModTabs.TAB_JPOMC);
 	public static final RegistryObject<Item> CLAVIER_V_2 = block(JpomcModBlocks.CLAVIER_V_2, JpomcModTabs.TAB_JPOMC);
 	public static final RegistryObject<Item> P_CFULL = block(JpomcModBlocks.P_CFULL, JpomcModTabs.TAB_JPOMC);
+	public static final RegistryObject<Item> DDH = REGISTRY.register("ddh", () -> new DdhItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
