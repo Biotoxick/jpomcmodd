@@ -19,6 +19,7 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.BlockPos;
 
 import jpomc.init.JpomcModMenus;
+import jpomc.init.JpomcModItems;
 
 import java.util.function.Supplier;
 import java.util.Map;
@@ -37,7 +38,7 @@ public class BoitierpcguiMenu extends AbstractContainerMenu implements Supplier<
 		super(JpomcModMenus.BOITIERPCGUI, id);
 		this.entity = inv.player;
 		this.world = inv.player.level;
-		this.internal = new ItemStackHandler(7);
+		this.internal = new ItemStackHandler(8);
 		BlockPos pos = null;
 		if (extraData != null) {
 			pos = extraData.readBlockPos();
@@ -75,19 +76,53 @@ public class BoitierpcguiMenu extends AbstractContainerMenu implements Supplier<
 				}
 			}
 		}
-		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 61, 48) {
+		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 55, 27) {
+			@Override
+			public boolean mayPlace(ItemStack stack) {
+				return (JpomcModItems.MOTHERBOARD.get() == stack.getItem());
+			}
 		}));
-		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 79, 48) {
+		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 88, 13) {
+			@Override
+			public boolean mayPlace(ItemStack stack) {
+				return (JpomcModItems.RAM.get() == stack.getItem());
+			}
 		}));
-		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 88, 30) {
+		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 88, 34) {
+			@Override
+			public boolean mayPlace(ItemStack stack) {
+				return (JpomcModItems.RAM.get() == stack.getItem());
+			}
 		}));
-		this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 97, 48) {
+		this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 115, 34) {
+			@Override
+			public boolean mayPlace(ItemStack stack) {
+				return (JpomcModItems.DDH.get() == stack.getItem());
+			}
 		}));
-		this.customSlots.put(4, this.addSlot(new SlotItemHandler(internal, 4, 88, 66) {
+		this.customSlots.put(4, this.addSlot(new SlotItemHandler(internal, 4, 43, 61) {
+			@Override
+			public boolean mayPlace(ItemStack stack) {
+				return (JpomcModItems.GRAPHIC_CARD.get() == stack.getItem());
+			}
 		}));
-		this.customSlots.put(5, this.addSlot(new SlotItemHandler(internal, 5, 25, 93) {
+		this.customSlots.put(5, this.addSlot(new SlotItemHandler(internal, 5, 67, 61) {
+			@Override
+			public boolean mayPlace(ItemStack stack) {
+				return (JpomcModItems.PROCESSOR.get() == stack.getItem());
+			}
 		}));
-		this.customSlots.put(6, this.addSlot(new SlotItemHandler(internal, 6, 133, 93) {
+		this.customSlots.put(6, this.addSlot(new SlotItemHandler(internal, 6, 73, 92) {
+			@Override
+			public boolean mayPlace(ItemStack stack) {
+				return (JpomcModItems.AIRCOOLING.get() == stack.getItem());
+			}
+		}));
+		this.customSlots.put(7, this.addSlot(new SlotItemHandler(internal, 7, 37, 92) {
+			@Override
+			public boolean mayPlace(ItemStack stack) {
+				return (JpomcModItems.ALIMENTATION.get() == stack.getItem());
+			}
 		}));
 		for (int si = 0; si < 3; ++si)
 			for (int sj = 0; sj < 9; ++sj)
@@ -108,18 +143,18 @@ public class BoitierpcguiMenu extends AbstractContainerMenu implements Supplier<
 		if (slot != null && slot.hasItem()) {
 			ItemStack itemstack1 = slot.getItem();
 			itemstack = itemstack1.copy();
-			if (index < 7) {
-				if (!this.moveItemStackTo(itemstack1, 7, this.slots.size(), true)) {
+			if (index < 8) {
+				if (!this.moveItemStackTo(itemstack1, 8, this.slots.size(), true)) {
 					return ItemStack.EMPTY;
 				}
 				slot.onQuickCraft(itemstack1, itemstack);
-			} else if (!this.moveItemStackTo(itemstack1, 0, 7, false)) {
-				if (index < 7 + 27) {
-					if (!this.moveItemStackTo(itemstack1, 7 + 27, this.slots.size(), true)) {
+			} else if (!this.moveItemStackTo(itemstack1, 0, 8, false)) {
+				if (index < 8 + 27) {
+					if (!this.moveItemStackTo(itemstack1, 8 + 27, this.slots.size(), true)) {
 						return ItemStack.EMPTY;
 					}
 				} else {
-					if (!this.moveItemStackTo(itemstack1, 7, 7 + 27, false)) {
+					if (!this.moveItemStackTo(itemstack1, 8, 8 + 27, false)) {
 						return ItemStack.EMPTY;
 					}
 				}

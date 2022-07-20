@@ -4,6 +4,9 @@ package jpomc.block;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
+import net.minecraft.world.phys.shapes.VoxelShape;
+import net.minecraft.world.phys.shapes.CollisionContext;
+import net.minecraft.world.phys.Vec3;
 import net.minecraft.world.level.storage.loot.LootContext;
 import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.block.state.properties.DirectionProperty;
@@ -32,7 +35,7 @@ public class EcranPcBlock extends Block {
 	public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
 
 	public EcranPcBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.GRAVEL).strength(1f, 10f).noOcclusion()
+		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.METAL).strength(1f, 10f).noOcclusion()
 				.isRedstoneConductor((bs, br, bp) -> false));
 		this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH));
 	}
@@ -45,6 +48,22 @@ public class EcranPcBlock extends Block {
 	@Override
 	public int getLightBlock(BlockState state, BlockGetter worldIn, BlockPos pos) {
 		return 0;
+	}
+
+	@Override
+	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
+		Vec3 offset = state.getOffset(world, pos);
+		switch ((Direction) state.getValue(FACING)) {
+			case SOUTH :
+			default :
+				return box(0.5, 3, 8, 15.5, 11.4, 8.4).move(offset.x, offset.y, offset.z);
+			case NORTH :
+				return box(0.5, 3, 7.6, 15.5, 11.4, 8).move(offset.x, offset.y, offset.z);
+			case EAST :
+				return box(8, 3, 0.5, 8.4, 11.4, 15.5).move(offset.x, offset.y, offset.z);
+			case WEST :
+				return box(7.6, 3, 0.5, 8, 11.4, 15.5).move(offset.x, offset.y, offset.z);
+		}
 	}
 
 	@Override

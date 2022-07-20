@@ -11,101 +11,190 @@
     "doesPauseGame": false,
     "components": [
       {
+        "type": "image",
+        "data": {
+          "image": "boitierpcgui8slotsv2.png",
+          "use1Xscale": false,
+          "name": "boitierpcgui8slotsv2.png",
+          "x": 125,
+          "y": 15
+        }
+      },
+      {
         "type": "inputslot",
         "data": {
           "inputLimit": {
-            "value": ""
+            "value": "CUSTOM:Motherboard"
           },
           "id": 0,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
           "name": "Slot #0",
-          "x": 186,
-          "y": 62
+          "x": 180,
+          "y": 41
         }
       },
       {
         "type": "inputslot",
         "data": {
           "inputLimit": {
-            "value": ""
+            "value": "CUSTOM:RAM"
           },
           "id": 1,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
           "name": "Slot #1",
-          "x": 204,
-          "y": 62
+          "x": 213,
+          "y": 27
         }
       },
       {
         "type": "inputslot",
         "data": {
           "inputLimit": {
-            "value": ""
+            "value": "CUSTOM:RAM"
           },
           "id": 2,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
           "name": "Slot #2",
           "x": 213,
-          "y": 44
+          "y": 48
         }
       },
       {
         "type": "inputslot",
         "data": {
           "inputLimit": {
-            "value": ""
+            "value": "CUSTOM:Ddh"
           },
           "id": 3,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
           "name": "Slot #3",
-          "x": 222,
-          "y": 62
+          "x": 240,
+          "y": 48
         }
       },
       {
         "type": "inputslot",
         "data": {
           "inputLimit": {
-            "value": ""
+            "value": "CUSTOM:GraphicCard"
           },
           "id": 4,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
           "name": "Slot #4",
-          "x": 213,
-          "y": 80
+          "x": 168,
+          "y": 75
         }
       },
       {
         "type": "inputslot",
         "data": {
           "inputLimit": {
-            "value": ""
+            "value": "CUSTOM:Processor"
           },
           "id": 5,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
           "name": "Slot #5",
-          "x": 150,
-          "y": 107
+          "x": 192,
+          "y": 75
         }
       },
       {
         "type": "inputslot",
         "data": {
           "inputLimit": {
-            "value": ""
+            "value": "CUSTOM:Aircooling"
           },
           "id": 6,
           "disableStackInteraction": false,
           "dropItemsWhenNotBound": true,
           "name": "Slot #6",
-          "x": 258,
-          "y": 107
+          "x": 198,
+          "y": 106
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:Alimentation"
+          },
+          "id": 7,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #7",
+          "x": 162,
+          "y": 106
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "cadenaresize.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Sicartemereon"
+          },
+          "name": "cadenaresize.png",
+          "x": 172,
+          "y": 78
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "cadenaresize.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Sicartemereon"
+          },
+          "name": "cadenaresize.png",
+          "x": 196,
+          "y": 78
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "cadenaresize.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Siprocesseuron"
+          },
+          "name": "cadenaresize.png",
+          "x": 202,
+          "y": 109
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "cadenaresize.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Sicartemereon"
+          },
+          "name": "cadenaresize.png",
+          "x": 217,
+          "y": 51
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "cadenaresize.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Sicartemereon"
+          },
+          "name": "cadenaresize.png",
+          "x": 217,
+          "y": 30
         }
       }
     ],
@@ -114,7 +203,7 @@
       "sy": 18,
       "ox": 11,
       "oy": 15,
-      "snapOnGrid": true
+      "snapOnGrid": false
     }
   }
 }

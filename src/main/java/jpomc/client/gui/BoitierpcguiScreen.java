@@ -11,6 +11,9 @@ import net.minecraft.client.Minecraft;
 
 import jpomc.world.inventory.BoitierpcguiMenu;
 
+import jpomc.procedures.SiprocesseuronProcedure;
+import jpomc.procedures.SicartemereonProcedure;
+
 import java.util.HashMap;
 
 import com.mojang.blaze3d.vertex.PoseStack;
@@ -49,6 +52,30 @@ public class BoitierpcguiScreen extends AbstractContainerScreen<BoitierpcguiMenu
 		RenderSystem.defaultBlendFunc();
 		RenderSystem.setShaderTexture(0, texture);
 		this.blit(ms, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
+
+		RenderSystem.setShaderTexture(0, new ResourceLocation("jpomc:textures/boitierpcgui8slotsv2.png"));
+		this.blit(ms, this.leftPos + 0, this.topPos + 0, 0, 0, 176, 210, 176, 210);
+
+		if (SicartemereonProcedure.execute(world, x, y, z)) {
+			RenderSystem.setShaderTexture(0, new ResourceLocation("jpomc:textures/cadenaresize.png"));
+			this.blit(ms, this.leftPos + 46, this.topPos + 63, 0, 0, 10, 13, 10, 13);
+		}
+		if (SicartemereonProcedure.execute(world, x, y, z)) {
+			RenderSystem.setShaderTexture(0, new ResourceLocation("jpomc:textures/cadenaresize.png"));
+			this.blit(ms, this.leftPos + 70, this.topPos + 63, 0, 0, 10, 13, 10, 13);
+		}
+		if (SiprocesseuronProcedure.execute(world, x, y, z)) {
+			RenderSystem.setShaderTexture(0, new ResourceLocation("jpomc:textures/cadenaresize.png"));
+			this.blit(ms, this.leftPos + 76, this.topPos + 94, 0, 0, 10, 13, 10, 13);
+		}
+		if (SicartemereonProcedure.execute(world, x, y, z)) {
+			RenderSystem.setShaderTexture(0, new ResourceLocation("jpomc:textures/cadenaresize.png"));
+			this.blit(ms, this.leftPos + 91, this.topPos + 36, 0, 0, 10, 13, 10, 13);
+		}
+		if (SicartemereonProcedure.execute(world, x, y, z)) {
+			RenderSystem.setShaderTexture(0, new ResourceLocation("jpomc:textures/cadenaresize.png"));
+			this.blit(ms, this.leftPos + 91, this.topPos + 15, 0, 0, 10, 13, 10, 13);
+		}
 		RenderSystem.disableBlend();
 	}
 

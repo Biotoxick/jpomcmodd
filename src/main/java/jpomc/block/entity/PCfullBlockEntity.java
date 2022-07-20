@@ -32,12 +32,12 @@ import java.util.stream.IntStream;
 
 import io.netty.buffer.Unpooled;
 
-public class ChassisvideBlockEntity extends RandomizableContainerBlockEntity implements WorldlyContainer {
+public class PCfullBlockEntity extends RandomizableContainerBlockEntity implements WorldlyContainer {
 	private NonNullList<ItemStack> stacks = NonNullList.<ItemStack>withSize(8, ItemStack.EMPTY);
 	private final LazyOptional<? extends IItemHandler>[] handlers = SidedInvWrapper.create(this, Direction.values());
 
-	public ChassisvideBlockEntity(BlockPos position, BlockState state) {
-		super(JpomcModBlockEntities.CHASSISVIDE.get(), position, state);
+	public PCfullBlockEntity(BlockPos position, BlockState state) {
+		super(JpomcModBlockEntities.P_CFULL.get(), position, state);
 	}
 
 	@Override
@@ -81,7 +81,7 @@ public class ChassisvideBlockEntity extends RandomizableContainerBlockEntity imp
 
 	@Override
 	public Component getDefaultName() {
-		return new TextComponent("chassisvide");
+		return new TextComponent("p_cfull");
 	}
 
 	@Override
@@ -96,7 +96,7 @@ public class ChassisvideBlockEntity extends RandomizableContainerBlockEntity imp
 
 	@Override
 	public Component getDisplayName() {
-		return new TextComponent("Chassis Vide");
+		return new TextComponent("PCfull");
 	}
 
 	@Override
