@@ -11,7 +11,7 @@
     "renderType": 2,
     "customModelName": "pcmasterracefull2:default",
     "rotationMode": 1,
-    "emissiveRendering": false,
+    "emissiveRendering": true,
     "displayFluidOverlay": false,
     "itemTexture": "",
     "particleTexture": "",
