@@ -2,16 +2,16 @@
   "_fv": 28,
   "_type": "block",
   "definition": {
-    "texture": "y",
+    "texture": "texture_pc",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
     "textureRight": "",
     "textureBack": "",
     "renderType": 2,
-    "customModelName": "mousefinal:default",
+    "customModelName": "ecranpcon:default",
     "rotationMode": 1,
-    "emissiveRendering": false,
+    "emissiveRendering": true,
     "displayFluidOverlay": false,
     "itemTexture": "",
     "particleTexture": "",
@@ -23,16 +23,16 @@
     "disableOffset": false,
     "boundingBoxes": [
       {
-        "mx": 0.0,
-        "my": 0.0,
-        "mz": 0.0,
-        "Mx": 16.0,
-        "My": 0.3,
-        "Mz": 16.0,
+        "mx": 0.5,
+        "my": 3.0,
+        "mz": 7.6,
+        "Mx": 15.5,
+        "My": 11.4,
+        "Mz": 8.0,
         "subtract": false
       }
     ],
-    "name": "Mouse",
+    "name": "Ecran",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
@@ -43,7 +43,7 @@
     },
     "destroyTool": "Not specified",
     "customDrop": {
-      "value": ""
+      "value": "CUSTOM:EcranPc"
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
@@ -52,9 +52,9 @@
     "canRedstoneConnect": false,
     "lightOpacity": 0,
     "material": {
-      "value": "ROCK"
+      "value": "IRON"
     },
-    "tickRate": 10,
+    "tickRate": 20,
     "tickRandomly": false,
     "isReplaceable": false,
     "canProvidePower": false,
@@ -75,24 +75,24 @@
     "jumpFactor": 1.0,
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
-    "isCustomSoundType": true,
+    "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "WOOD"
+      "value": "METAL"
     },
     "breakSound": {
-      "value": "block.wood.break"
+      "value": ""
     },
     "fallSound": {
-      "value": "CUSTOM:clicksound"
+      "value": ""
     },
     "hitSound": {
-      "value": "CUSTOM:clicksound"
+      "value": ""
     },
     "placeSound": {
-      "value": "CUSTOM:clicksound"
+      "value": ""
     },
     "stepSound": {
-      "value": "CUSTOM:clicksound"
+      "value": ""
     },
     "luminance": 0,
     "unbreakable": false,
@@ -104,10 +104,10 @@
     "particleSpawningShape": "Spread",
     "particleSpawningRadious": 0.5,
     "particleAmount": 4,
-    "hasInventory": false,
-    "guiBoundTo": "<NONE>",
-    "openGUIOnRightClick": false,
-    "inventorySize": 9,
+    "hasInventory": true,
+    "guiBoundTo": "Guiecran",
+    "openGUIOnRightClick": true,
+    "inventorySize": 0,
     "inventoryStackSize": 64,
     "inventoryDropWhenDestroyed": true,
     "inventoryComparatorPower": true,
@@ -121,8 +121,8 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onRightClicked": {
-      "name": "Mouse2OnBlockRightClicked"
+    "onTickUpdate": {
+      "name": "Replacescreenoff"
     },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],

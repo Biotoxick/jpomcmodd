@@ -74,25 +74,25 @@
     "speedFactor": 1.0,
     "jumpFactor": 1.0,
     "reactionToPushing": "NORMAL",
-    "isNotColidable": true,
-    "isCustomSoundType": false,
+    "isNotColidable": false,
+    "isCustomSoundType": true,
     "soundOnStep": {
       "value": "WOOD"
     },
     "breakSound": {
-      "value": ""
+      "value": "block.wood.break"
     },
     "fallSound": {
-      "value": ""
+      "value": "CUSTOM:keyboardsound"
     },
     "hitSound": {
-      "value": ""
+      "value": "CUSTOM:keyboardsound"
     },
     "placeSound": {
-      "value": ""
+      "value": "CUSTOM:keyboardsound"
     },
     "stepSound": {
-      "value": ""
+      "value": "CUSTOM:keyboardsound"
     },
     "luminance": 0,
     "unbreakable": false,
@@ -121,6 +121,9 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onRightClicked": {
+      "name": "ClavierV2OnBlockRightClicked"
+    },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [

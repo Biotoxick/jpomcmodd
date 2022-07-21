@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "texture_pc",
+        "2": "y",
+        "3": "fondguiwindows"
+      },
+      "name": "default"
+    }
+  }
+}

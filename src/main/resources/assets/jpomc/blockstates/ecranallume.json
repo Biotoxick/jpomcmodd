@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "jpomc:block/ecranallume"
+    },
+    "facing=east": {
+      "model": "jpomc:block/ecranallume",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "jpomc:block/ecranallume",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "jpomc:block/ecranallume",
+      "y": 270
+    }
+  }
+}

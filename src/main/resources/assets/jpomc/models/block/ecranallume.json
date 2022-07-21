@@ -1,0 +1,10 @@
+{
+  "parent": "jpomc:custom/ecranpcon",
+  "textures": {
+    "all": "jpomc:blocks/texture_pc",
+    "particle": "jpomc:blocks/texture_pc",
+    "0": "jpomc:blocks/texture_pc",
+    "2": "jpomc:blocks/y",
+    "3": "jpomc:blocks/fondguiwindows"
+  }
+}

@@ -250,10 +250,176 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "guiecran"
+    },
+    {
+      "name": "Ecranallume",
+      "type": "block",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ecranallume",
+      "path": "~/computer/items"
+    },
+    {
+      "name": "Replacescreen",
+      "type": "procedure",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "replacescreen",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/computer/procedures"
+    },
+    {
+      "name": "Replacescreenoff",
+      "type": "procedure",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "replacescreenoff",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/computer/procedures"
+    },
+    {
+      "name": "Mouse2OnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mouse_2_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/computer/items"
+    },
+    {
+      "name": "ClavierV2OnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clavier_v_2_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/computer/items"
     }
   ],
   "variable_elements": [],
-  "sound_elements": [],
+  "sound_elements": [
+    {
+      "name": "pcrunningsound",
+      "files": [
+        "pcrunningsound"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "clicksound",
+      "files": [
+        "clicksound"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "keyboardsound",
+      "files": [
+        "keyboardsound"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "pcoffsound",
+      "files": [
+        "pcoffsound"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "pconsound",
+      "files": [
+        "pconsound"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    }
+  ],
   "language_map": {
     "en_us": {
       "block.jpomc.ecran_pc": "Ecran Pc",
@@ -265,10 +431,16 @@
       "itemGroup.tabjpomc": "JPOMC",
       "item.jpomc.graphic_card": "Graphic Card",
       "item.jpomc.processor": "Processor",
+      "subtitles.pcrunningsound": "",
+      "subtitles.clicksound": "",
+      "block.jpomc.ecranallume": "Ecran",
       "item.jpomc.alimentation": "Alimentation",
       "block.jpomc.mouse_2": "Mouse",
       "item.jpomc.motherboard": "Motherboard",
-      "block.jpomc.clavier_v_2": "Clavier"
+      "block.jpomc.clavier_v_2": "Clavier",
+      "subtitles.keyboardsound": "",
+      "subtitles.pcoffsound": "",
+      "subtitles.pconsound": ""
     }
   },
   "foldersRoot": {

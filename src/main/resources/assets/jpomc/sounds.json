@@ -1,0 +1,47 @@
+{
+  "pcrunningsound": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "jpomc:pcrunningsound",
+        "stream": false
+      }
+    ]
+  },
+  "clicksound": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "jpomc:clicksound",
+        "stream": false
+      }
+    ]
+  },
+  "keyboardsound": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "jpomc:keyboardsound",
+        "stream": false
+      }
+    ]
+  },
+  "pcoffsound": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "jpomc:pcoffsound",
+        "stream": false
+      }
+    ]
+  },
+  "pconsound": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "jpomc:pconsound",
+        "stream": false
+      }
+    ]
+  }
+}

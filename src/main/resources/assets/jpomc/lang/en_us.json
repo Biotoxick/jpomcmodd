@@ -8,8 +8,14 @@
   "itemGroup.tabjpomc": "JPOMC",
   "item.jpomc.graphic_card": "Graphic Card",
   "item.jpomc.processor": "Processor",
+  "subtitles.pcrunningsound": "",
+  "subtitles.clicksound": "",
+  "block.jpomc.ecranallume": "Ecran",
   "item.jpomc.alimentation": "Alimentation",
   "block.jpomc.mouse_2": "Mouse",
   "item.jpomc.motherboard": "Motherboard",
-  "block.jpomc.clavier_v_2": "Clavier"
+  "block.jpomc.clavier_v_2": "Clavier",
+  "subtitles.keyboardsound": "",
+  "subtitles.pcoffsound": "",
+  "subtitles.pconsound": ""
 }

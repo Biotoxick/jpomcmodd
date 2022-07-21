@@ -37,6 +37,7 @@ public class JpomcModItems {
 	public static final RegistryObject<Item> CLAVIER_V_2 = block(JpomcModBlocks.CLAVIER_V_2, JpomcModTabs.TAB_JPOMC);
 	public static final RegistryObject<Item> P_CFULL = block(JpomcModBlocks.P_CFULL, JpomcModTabs.TAB_JPOMC);
 	public static final RegistryObject<Item> DDH = REGISTRY.register("ddh", () -> new DdhItem());
+	public static final RegistryObject<Item> ECRANALLUME = block(JpomcModBlocks.ECRANALLUME, JpomcModTabs.TAB_JPOMC);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

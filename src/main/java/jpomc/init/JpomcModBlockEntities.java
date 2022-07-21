@@ -12,6 +12,7 @@ import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraft.world.level.block.Block;
 
 import jpomc.block.entity.PCfullBlockEntity;
+import jpomc.block.entity.EcranallumeBlockEntity;
 import jpomc.block.entity.ChassisvideBlockEntity;
 
 import jpomc.JpomcMod;
@@ -21,6 +22,8 @@ public class JpomcModBlockEntities {
 	public static final RegistryObject<BlockEntityType<?>> CHASSISVIDE = register("chassisvide", JpomcModBlocks.CHASSISVIDE,
 			ChassisvideBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> P_CFULL = register("p_cfull", JpomcModBlocks.P_CFULL, PCfullBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> ECRANALLUME = register("ecranallume", JpomcModBlocks.ECRANALLUME,
+			EcranallumeBlockEntity::new);
 
 	private static RegistryObject<BlockEntityType<?>> register(String registryname, RegistryObject<Block> block,
 			BlockEntityType.BlockEntitySupplier<?> supplier) {
