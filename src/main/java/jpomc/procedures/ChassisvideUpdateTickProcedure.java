@@ -9,6 +9,8 @@ import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.core.BlockPos;
 
+import jpomc.network.JpomcModVariables;
+
 import jpomc.init.JpomcModBlocks;
 
 import java.util.concurrent.atomic.AtomicInteger;
@@ -118,6 +120,8 @@ public class ChassisvideUpdateTickProcedure {
 					}
 				}
 			}
+			JpomcModVariables.WorldVariables.get(world).shouldclosegui = true;
+			JpomcModVariables.WorldVariables.get(world).syncData(world);
 		}
 	}
 }

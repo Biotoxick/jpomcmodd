@@ -54,7 +54,7 @@
     "material": {
       "value": "IRON"
     },
-    "tickRate": 20,
+    "tickRate": 10,
     "tickRandomly": false,
     "isReplaceable": false,
     "canProvidePower": false,
@@ -123,6 +123,9 @@
     "fluidRestrictions": [],
     "onTickUpdate": {
       "name": "ChassisvideUpdateTick"
+    },
+    "onRandomUpdateEvent": {
+      "name": "ChassisvideClientDisplayRandomTick"
     },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],

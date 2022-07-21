@@ -60,7 +60,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "boitierpcgui",
-      "path": "~/computer"
+      "path": "~/computer/GUI"
     },
     {
       "name": "Processor",
@@ -212,7 +212,7 @@
           }
         ]
       },
-      "path": "~/computer/items"
+      "path": "~/computer/procedures"
     },
     {
       "name": "Pcfullupdatetick",
@@ -241,7 +241,7 @@
           }
         ]
       },
-      "path": "~/computer/items"
+      "path": "~/computer/procedures"
     },
     {
       "name": "Guiecran",
@@ -249,7 +249,8 @@
       "sortid": 25,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "guiecran"
+      "registry_name": "guiecran",
+      "path": "~/computer/GUI"
     },
     {
       "name": "Ecranallume",
@@ -258,7 +259,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "ecranallume",
-      "path": "~/computer/items"
+      "path": "~/computer/items/ecranPC"
     },
     {
       "name": "Replacescreen",
@@ -345,7 +346,7 @@
           }
         ]
       },
-      "path": "~/computer/items"
+      "path": "~/computer/procedures"
     },
     {
       "name": "ClavierV2OnBlockRightClicked",
@@ -374,10 +375,79 @@
           }
         ]
       },
-      "path": "~/computer/items"
+      "path": "~/computer/procedures"
+    },
+    {
+      "name": "ChassisvideClientDisplayRandomTick",
+      "type": "procedure",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chassisvide_client_display_random_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/computer/procedures"
+    },
+    {
+      "name": "Screenguibutton",
+      "type": "procedure",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "screenguibutton",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/computer/procedures"
+    },
+    {
+      "name": "Showcodecondition",
+      "type": "procedure",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "showcodecondition",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/computer/procedures"
     }
   ],
-  "variable_elements": [],
+  "variable_elements": [
+    {
+      "name": "shouldclosegui",
+      "type": "logic",
+      "scope": "world",
+      "value": "false"
+    },
+    {
+      "name": "shoudshowcode",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
+    }
+  ],
   "sound_elements": [
     {
       "name": "pcrunningsound",
@@ -423,20 +493,20 @@
   "language_map": {
     "en_us": {
       "block.jpomc.ecran_pc": "Ecran Pc",
-      "block.jpomc.p_cfull": "PCfull",
+      "block.jpomc.p_cfull": "PC Full",
       "item.jpomc.ram": "RAM",
       "block.jpomc.chassisvide": "Chassis Vide",
-      "item.jpomc.aircooling": "Aircooling",
-      "item.jpomc.ddh": "Ddh",
+      "item.jpomc.aircooling": "Ventirad",
+      "item.jpomc.ddh": "DDH",
       "itemGroup.tabjpomc": "JPOMC",
-      "item.jpomc.graphic_card": "Graphic Card",
-      "item.jpomc.processor": "Processor",
+      "item.jpomc.graphic_card": "Carte Graphique",
+      "item.jpomc.processor": "Processeur",
       "subtitles.pcrunningsound": "",
       "subtitles.clicksound": "",
       "block.jpomc.ecranallume": "Ecran",
       "item.jpomc.alimentation": "Alimentation",
-      "block.jpomc.mouse_2": "Mouse",
-      "item.jpomc.motherboard": "Motherboard",
+      "block.jpomc.mouse_2": "Souris",
+      "item.jpomc.motherboard": "Carte Mere",
       "block.jpomc.clavier_v_2": "Clavier",
       "subtitles.keyboardsound": "",
       "subtitles.pcoffsound": "",
@@ -460,6 +530,10 @@
           },
           {
             "name": "procedures",
+            "children": []
+          },
+          {
+            "name": "GUI",
             "children": []
           }
         ]

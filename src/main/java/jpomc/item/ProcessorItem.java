@@ -10,7 +10,7 @@ import jpomc.init.JpomcModTabs;
 
 public class ProcessorItem extends Item {
 	public ProcessorItem() {
-		super(new Item.Properties().tab(JpomcModTabs.TAB_JPOMC).stacksTo(64).rarity(Rarity.COMMON));
+		super(new Item.Properties().tab(JpomcModTabs.TAB_JPOMC).stacksTo(1).rarity(Rarity.COMMON));
 	}
 
 	@Override

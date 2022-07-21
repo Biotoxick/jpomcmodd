@@ -42,10 +42,12 @@ import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
+import net.minecraft.client.Minecraft;
 
 import jpomc.world.inventory.BoitierpcguiMenu;
 
 import jpomc.procedures.PcfullupdatetickProcedure;
+import jpomc.procedures.ChassisvideClientDisplayRandomTickProcedure;
 
 import jpomc.init.JpomcModBlocks;
 
@@ -124,13 +126,13 @@ public class PCfullBlock extends Block
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
-		return Collections.singletonList(new ItemStack(this, 1));
+		return Collections.singletonList(new ItemStack(JpomcModBlocks.CHASSISVIDE.get()));
 	}
 
 	@Override
 	public void onPlace(BlockState blockstate, Level world, BlockPos pos, BlockState oldState, boolean moving) {
 		super.onPlace(blockstate, world, pos, oldState, moving);
-		world.scheduleTick(pos, this, 20);
+		world.scheduleTick(pos, this, 10);
 	}
 
 	@Override
@@ -141,7 +143,19 @@ public class PCfullBlock extends Block
 		int z = pos.getZ();
 
 		PcfullupdatetickProcedure.execute(world, x, y, z);
-		world.scheduleTick(pos, this, 20);
+		world.scheduleTick(pos, this, 10);
+	}
+
+	@OnlyIn(Dist.CLIENT)
+	@Override
+	public void animateTick(BlockState blockstate, Level world, BlockPos pos, Random random) {
+		super.animateTick(blockstate, world, pos, random);
+		Player entity = Minecraft.getInstance().player;
+		int x = pos.getX();
+		int y = pos.getY();
+		int z = pos.getZ();
+
+		ChassisvideClientDisplayRandomTickProcedure.execute(world, entity);
 	}
 
 	@Override
@@ -151,7 +165,7 @@ public class PCfullBlock extends Block
 			NetworkHooks.openGui(player, new MenuProvider() {
 				@Override
 				public Component getDisplayName() {
-					return new TextComponent("PCfull");
+					return new TextComponent("PC Full");
 				}
 
 				@Override

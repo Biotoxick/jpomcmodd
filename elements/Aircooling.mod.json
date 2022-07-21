@@ -5,12 +5,12 @@
     "renderType": 1,
     "texture": "vt",
     "customModelName": "aero:default",
-    "name": "Aircooling",
+    "name": "Ventirad",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:JPOMC"
     },
-    "stackSize": 64,
+    "stackSize": 1,
     "enchantability": 0,
     "useDuration": 0,
     "toolType": 1.0,

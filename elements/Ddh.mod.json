@@ -5,12 +5,12 @@
     "renderType": 1,
     "texture": "ali",
     "customModelName": "ddh:default",
-    "name": "Ddh",
+    "name": "DDH",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:JPOMC"
     },
-    "stackSize": 64,
+    "stackSize": 1,
     "enchantability": 0,
     "useDuration": 0,
     "toolType": 1.0,

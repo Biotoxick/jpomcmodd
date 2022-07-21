@@ -32,7 +32,7 @@
         "subtract": false
       }
     ],
-    "name": "PCfull",
+    "name": "PC Full",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
@@ -43,7 +43,7 @@
     },
     "destroyTool": "Not specified",
     "customDrop": {
-      "value": ""
+      "value": "CUSTOM:Chassisvide"
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
@@ -54,7 +54,7 @@
     "material": {
       "value": "IRON"
     },
-    "tickRate": 20,
+    "tickRate": 10,
     "tickRandomly": false,
     "isReplaceable": false,
     "canProvidePower": false,
@@ -123,6 +123,9 @@
     "fluidRestrictions": [],
     "onTickUpdate": {
       "name": "Pcfullupdatetick"
+    },
+    "onRandomUpdateEvent": {
+      "name": "ChassisvideClientDisplayRandomTick"
     },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],

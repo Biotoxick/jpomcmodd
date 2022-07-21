@@ -10,7 +10,7 @@ import jpomc.init.JpomcModTabs;
 
 public class MotherboardItem extends Item {
 	public MotherboardItem() {
-		super(new Item.Properties().tab(JpomcModTabs.TAB_JPOMC).stacksTo(64).rarity(Rarity.EPIC));
+		super(new Item.Properties().tab(JpomcModTabs.TAB_JPOMC).stacksTo(1).rarity(Rarity.EPIC));
 	}
 
 	@Override

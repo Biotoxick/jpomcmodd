@@ -13,6 +13,8 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.core.BlockPos;
 
+import jpomc.network.JpomcModVariables;
+
 import jpomc.init.JpomcModBlocks;
 
 import java.util.concurrent.atomic.AtomicInteger;
@@ -131,6 +133,8 @@ public class PcfullupdatetickProcedure {
 					}
 				}
 			}
+			JpomcModVariables.WorldVariables.get(world).shouldclosegui = true;
+			JpomcModVariables.WorldVariables.get(world).syncData(world);
 		}
 	}
 }

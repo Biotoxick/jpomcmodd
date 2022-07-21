@@ -96,7 +96,7 @@ public class PCfullBlockEntity extends RandomizableContainerBlockEntity implemen
 
 	@Override
 	public Component getDisplayName() {
-		return new TextComponent("PCfull");
+		return new TextComponent("PC Full");
 	}
 
 	@Override

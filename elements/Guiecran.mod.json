@@ -14,11 +14,14 @@
         "type": "button",
         "data": {
           "text": " ",
+          "onClick": {
+            "name": "Screenguibutton"
+          },
           "width": 30,
           "height": 20,
           "name": " ",
-          "x": 216,
-          "y": 56
+          "x": 98,
+          "y": 46
         }
       },
       {
@@ -29,6 +32,19 @@
           "name": "fondguiwindows.png",
           "x": 85,
           "y": 36
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "fenetre_et_code.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Showcodecondition"
+          },
+          "name": "fenetre_et_code.png",
+          "x": 165,
+          "y": 61
         }
       }
     ],

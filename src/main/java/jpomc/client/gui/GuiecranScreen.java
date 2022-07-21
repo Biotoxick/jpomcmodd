@@ -13,6 +13,12 @@ import net.minecraft.client.Minecraft;
 
 import jpomc.world.inventory.GuiecranMenu;
 
+import jpomc.procedures.ShowcodeconditionProcedure;
+
+import jpomc.network.GuiecranButtonMessage;
+
+import jpomc.JpomcMod;
+
 import java.util.HashMap;
 
 import com.mojang.blaze3d.vertex.PoseStack;
@@ -55,6 +61,10 @@ public class GuiecranScreen extends AbstractContainerScreen<GuiecranMenu> {
 		RenderSystem.setShaderTexture(0, new ResourceLocation("jpomc:textures/fondguiwindows.png"));
 		this.blit(ms, this.leftPos + 0, this.topPos + 0, 0, 0, 256, 168, 256, 168);
 
+		if (ShowcodeconditionProcedure.execute(entity)) {
+			RenderSystem.setShaderTexture(0, new ResourceLocation("jpomc:textures/fenetre_et_code.png"));
+			this.blit(ms, this.leftPos + 79, this.topPos + 25, 0, 0, 140, 109, 140, 109);
+		}
 		RenderSystem.disableBlend();
 	}
 
@@ -86,7 +96,11 @@ public class GuiecranScreen extends AbstractContainerScreen<GuiecranMenu> {
 	public void init() {
 		super.init();
 		this.minecraft.keyboardHandler.setSendRepeatsToGui(true);
-		this.addRenderableWidget(new Button(this.leftPos + 130, this.topPos + 20, 30, 20, new TextComponent(" "), e -> {
+		this.addRenderableWidget(new Button(this.leftPos + 12, this.topPos + 10, 30, 20, new TextComponent(" "), e -> {
+			if (true) {
+				JpomcMod.PACKET_HANDLER.sendToServer(new GuiecranButtonMessage(0, x, y, z));
+				GuiecranButtonMessage.handleButtonAction(entity, 0, x, y, z);
+			}
 		}));
 	}
 }
