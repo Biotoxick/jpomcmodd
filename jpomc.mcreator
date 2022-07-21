@@ -242,6 +242,14 @@
         ]
       },
       "path": "~/computer/items"
+    },
+    {
+      "name": "Guiecran",
+      "type": "gui",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "guiecran"
     }
   ],
   "variable_elements": [],

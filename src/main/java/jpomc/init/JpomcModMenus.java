@@ -12,6 +12,7 @@ import net.minecraftforge.event.RegistryEvent;
 import net.minecraft.world.inventory.MenuType;
 import net.minecraft.world.inventory.AbstractContainerMenu;
 
+import jpomc.world.inventory.GuiecranMenu;
 import jpomc.world.inventory.BoitierpcguiMenu;
 
 import java.util.List;
@@ -22,6 +23,7 @@ public class JpomcModMenus {
 	private static final List<MenuType<?>> REGISTRY = new ArrayList<>();
 	public static final MenuType<BoitierpcguiMenu> BOITIERPCGUI = register("boitierpcgui",
 			(id, inv, extraData) -> new BoitierpcguiMenu(id, inv, extraData));
+	public static final MenuType<GuiecranMenu> GUIECRAN = register("guiecran", (id, inv, extraData) -> new GuiecranMenu(id, inv, extraData));
 
 	private static <T extends AbstractContainerMenu> MenuType<T> register(String registryname, IContainerFactory<T> containerFactory) {
 		MenuType<T> menuType = new MenuType<T>(containerFactory);

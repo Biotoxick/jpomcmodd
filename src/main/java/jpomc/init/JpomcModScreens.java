@@ -11,6 +11,7 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.client.gui.screens.MenuScreens;
 
+import jpomc.client.gui.GuiecranScreen;
 import jpomc.client.gui.BoitierpcguiScreen;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
@@ -19,6 +20,7 @@ public class JpomcModScreens {
 	public static void clientLoad(FMLClientSetupEvent event) {
 		event.enqueueWork(() -> {
 			MenuScreens.register(JpomcModMenus.BOITIERPCGUI, BoitierpcguiScreen::new);
+			MenuScreens.register(JpomcModMenus.GUIECRAN, GuiecranScreen::new);
 		});
 	}
 }
