@@ -36,6 +36,23 @@ import java.util.function.Supplier;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class JpomcModVariables {
+	public static double instancetimer = 0;
+	public static double hubX = 0;
+	public static double hubY = 0;
+	public static double hubZ = 0;
+	public static double zoneAX = 0;
+	public static double zoneAY = 0;
+	public static double zoneAZ = 0;
+	public static double zoneBX = 0;
+	public static double zoneBY = 0;
+	public static double zoneBZ = 0;
+	public static double zoneCX = 0;
+	public static double zoneCY = 0;
+	public static double zoneDZ = 0;
+	public static double zoneCZ = 0;
+	public static double zoneDX = 0;
+	public static double zoneDY = 0;
+
 	@SubscribeEvent
 	public static void init(FMLCommonSetupEvent event) {
 		JpomcMod.addNetworkMessage(SavedDataSyncMessage.class, SavedDataSyncMessage::buffer, SavedDataSyncMessage::new,

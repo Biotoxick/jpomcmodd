@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "jpomc:blocks/smartphoneblock",
+    "up": "jpomc:blocks/smartphoneblock",
+    "north": "jpomc:blocks/smartphoneblock",
+    "east": "jpomc:blocks/smartphoneblock",
+    "south": "jpomc:blocks/smartphoneblock",
+    "west": "jpomc:blocks/smartphoneblock",
+    "particle": "jpomc:blocks/smartphoneblock"
+  }
+}

@@ -432,6 +432,159 @@
         ]
       },
       "path": "~/computer/procedures"
+    },
+    {
+      "name": "ZoneAtp",
+      "type": "procedure",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zone_atp",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/InstancesWork"
+    },
+    {
+      "name": "ConfigFile",
+      "type": "procedure",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "config_file",
+      "metadata": {
+        "dependencies": []
+      },
+      "path": "~/Configs"
+    },
+    {
+      "name": "TpblockA",
+      "type": "block",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tpblock_a",
+      "path": "~/InstancesWork"
+    },
+    {
+      "name": "TpblockB",
+      "type": "block",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tpblock_b",
+      "path": "~/InstancesWork"
+    },
+    {
+      "name": "TpblockC",
+      "type": "block",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tpblock_c",
+      "path": "~/InstancesWork"
+    },
+    {
+      "name": "TpblockD",
+      "type": "block",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tpblock_d",
+      "path": "~/InstancesWork"
+    },
+    {
+      "name": "ZoneBtp",
+      "type": "procedure",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zone_btp",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/InstancesWork"
+    },
+    {
+      "name": "ZoneCtp",
+      "type": "procedure",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zone_ctp",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/InstancesWork"
+    },
+    {
+      "name": "ZoneDtp",
+      "type": "procedure",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zone_dtp",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/InstancesWork"
+    },
+    {
+      "name": "MessageConfig",
+      "type": "procedure",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "message_config",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Configs"
     }
   ],
   "variable_elements": [
@@ -446,6 +599,102 @@
       "type": "logic",
       "scope": "player_persistent",
       "value": "false"
+    },
+    {
+      "name": "instancetimer",
+      "type": "number",
+      "scope": "global",
+      "value": "0"
+    },
+    {
+      "name": "hubX",
+      "type": "number",
+      "scope": "global",
+      "value": "0"
+    },
+    {
+      "name": "hubY",
+      "type": "number",
+      "scope": "global",
+      "value": "0"
+    },
+    {
+      "name": "hubZ",
+      "type": "number",
+      "scope": "global",
+      "value": "0"
+    },
+    {
+      "name": "zoneAX",
+      "type": "number",
+      "scope": "global",
+      "value": "0"
+    },
+    {
+      "name": "zoneAY",
+      "type": "number",
+      "scope": "global",
+      "value": "0"
+    },
+    {
+      "name": "zoneAZ",
+      "type": "number",
+      "scope": "global",
+      "value": "0"
+    },
+    {
+      "name": "zoneBX",
+      "type": "number",
+      "scope": "global",
+      "value": "0"
+    },
+    {
+      "name": "zoneBY",
+      "type": "number",
+      "scope": "global",
+      "value": "0"
+    },
+    {
+      "name": "zoneBZ",
+      "type": "number",
+      "scope": "global",
+      "value": "0"
+    },
+    {
+      "name": "zoneCX",
+      "type": "number",
+      "scope": "global",
+      "value": "0"
+    },
+    {
+      "name": "zoneCY",
+      "type": "number",
+      "scope": "global",
+      "value": "0"
+    },
+    {
+      "name": "zoneDZ",
+      "type": "number",
+      "scope": "global",
+      "value": "0"
+    },
+    {
+      "name": "zoneCZ",
+      "type": "number",
+      "scope": "global",
+      "value": "0"
+    },
+    {
+      "name": "zoneDX",
+      "type": "number",
+      "scope": "global",
+      "value": "0"
+    },
+    {
+      "name": "zoneDY",
+      "type": "number",
+      "scope": "global",
+      "value": "0"
     }
   ],
   "sound_elements": [
@@ -498,12 +747,16 @@
       "block.jpomc.chassisvide": "Chassis Vide",
       "item.jpomc.aircooling": "Ventirad",
       "item.jpomc.ddh": "DDH",
+      "block.jpomc.tpblock_b": "Tpblock B",
+      "block.jpomc.tpblock_c": "Tpblock C",
       "itemGroup.tabjpomc": "JPOMC",
+      "block.jpomc.tpblock_d": "Tpblock D",
       "item.jpomc.graphic_card": "Carte Graphique",
       "item.jpomc.processor": "Processeur",
       "subtitles.pcrunningsound": "",
       "subtitles.clicksound": "",
       "block.jpomc.ecranallume": "Ecran",
+      "block.jpomc.tpblock_a": "Tpblock A",
       "item.jpomc.alimentation": "Alimentation",
       "block.jpomc.mouse_2": "Souris",
       "item.jpomc.motherboard": "Carte Mere",
@@ -537,6 +790,14 @@
             "children": []
           }
         ]
+      },
+      {
+        "name": "InstancesWork",
+        "children": []
+      },
+      {
+        "name": "Configs",
+        "children": []
       }
     ]
   },
@@ -557,5 +818,5 @@
     "modElementsPackage": "jpomc",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202200120510
+  "mcreatorVersion": 202200234517
 }

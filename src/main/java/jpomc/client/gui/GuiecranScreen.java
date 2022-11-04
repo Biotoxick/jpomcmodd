@@ -41,7 +41,7 @@ public class GuiecranScreen extends AbstractContainerScreen<GuiecranMenu> {
 		this.imageHeight = 168;
 	}
 
-	private static final ResourceLocation texture = new ResourceLocation("jpomc:textures/guiecran.png");
+	private static final ResourceLocation texture = new ResourceLocation("jpomc:textures/screens/guiecran.png");
 
 	@Override
 	public void render(PoseStack ms, int mouseX, int mouseY, float partialTicks) {
@@ -58,11 +58,11 @@ public class GuiecranScreen extends AbstractContainerScreen<GuiecranMenu> {
 		RenderSystem.setShaderTexture(0, texture);
 		this.blit(ms, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
 
-		RenderSystem.setShaderTexture(0, new ResourceLocation("jpomc:textures/fondguiwindows.png"));
+		RenderSystem.setShaderTexture(0, new ResourceLocation("jpomc:textures/screens/fondguiwindows.png"));
 		this.blit(ms, this.leftPos + 0, this.topPos + 0, 0, 0, 256, 168, 256, 168);
 
 		if (ShowcodeconditionProcedure.execute(entity)) {
-			RenderSystem.setShaderTexture(0, new ResourceLocation("jpomc:textures/fenetre_et_code.png"));
+			RenderSystem.setShaderTexture(0, new ResourceLocation("jpomc:textures/screens/fenetre_et_code.png"));
 			this.blit(ms, this.leftPos + 79, this.topPos + 25, 0, 0, 140, 109, 140, 109);
 		}
 		RenderSystem.disableBlend();

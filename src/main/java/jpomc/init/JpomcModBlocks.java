@@ -14,6 +14,10 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.level.block.Block;
 
+import jpomc.block.TpblockDBlock;
+import jpomc.block.TpblockCBlock;
+import jpomc.block.TpblockBBlock;
+import jpomc.block.TpblockABlock;
 import jpomc.block.PCfullBlock;
 import jpomc.block.Mouse2Block;
 import jpomc.block.EcranallumeBlock;
@@ -31,6 +35,10 @@ public class JpomcModBlocks {
 	public static final RegistryObject<Block> CLAVIER_V_2 = REGISTRY.register("clavier_v_2", () -> new ClavierV2Block());
 	public static final RegistryObject<Block> P_CFULL = REGISTRY.register("p_cfull", () -> new PCfullBlock());
 	public static final RegistryObject<Block> ECRANALLUME = REGISTRY.register("ecranallume", () -> new EcranallumeBlock());
+	public static final RegistryObject<Block> TPBLOCK_A = REGISTRY.register("tpblock_a", () -> new TpblockABlock());
+	public static final RegistryObject<Block> TPBLOCK_B = REGISTRY.register("tpblock_b", () -> new TpblockBBlock());
+	public static final RegistryObject<Block> TPBLOCK_C = REGISTRY.register("tpblock_c", () -> new TpblockCBlock());
+	public static final RegistryObject<Block> TPBLOCK_D = REGISTRY.register("tpblock_d", () -> new TpblockDBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {

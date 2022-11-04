@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "jpomc:block/tpblock_d"
+    },
+    "facing=east": {
+      "model": "jpomc:block/tpblock_d",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "jpomc:block/tpblock_d",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "jpomc:block/tpblock_d",
+      "y": 270
+    }
+  }
+}

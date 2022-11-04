@@ -36,7 +36,7 @@ public class BoitierpcguiScreen extends AbstractContainerScreen<BoitierpcguiMenu
 		this.imageHeight = 210;
 	}
 
-	private static final ResourceLocation texture = new ResourceLocation("jpomc:textures/boitierpcgui.png");
+	private static final ResourceLocation texture = new ResourceLocation("jpomc:textures/screens/boitierpcgui.png");
 
 	@Override
 	public void render(PoseStack ms, int mouseX, int mouseY, float partialTicks) {
@@ -53,27 +53,27 @@ public class BoitierpcguiScreen extends AbstractContainerScreen<BoitierpcguiMenu
 		RenderSystem.setShaderTexture(0, texture);
 		this.blit(ms, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
 
-		RenderSystem.setShaderTexture(0, new ResourceLocation("jpomc:textures/boitierpcgui8slotsv2.png"));
+		RenderSystem.setShaderTexture(0, new ResourceLocation("jpomc:textures/screens/boitierpcgui8slotsv2.png"));
 		this.blit(ms, this.leftPos + 0, this.topPos + 0, 0, 0, 176, 210, 176, 210);
 
 		if (SicartemereonProcedure.execute(world, x, y, z)) {
-			RenderSystem.setShaderTexture(0, new ResourceLocation("jpomc:textures/cadenaresize.png"));
+			RenderSystem.setShaderTexture(0, new ResourceLocation("jpomc:textures/screens/cadenaresize.png"));
 			this.blit(ms, this.leftPos + 46, this.topPos + 63, 0, 0, 10, 13, 10, 13);
 		}
 		if (SicartemereonProcedure.execute(world, x, y, z)) {
-			RenderSystem.setShaderTexture(0, new ResourceLocation("jpomc:textures/cadenaresize.png"));
+			RenderSystem.setShaderTexture(0, new ResourceLocation("jpomc:textures/screens/cadenaresize.png"));
 			this.blit(ms, this.leftPos + 70, this.topPos + 63, 0, 0, 10, 13, 10, 13);
 		}
 		if (SiprocesseuronProcedure.execute(world, x, y, z)) {
-			RenderSystem.setShaderTexture(0, new ResourceLocation("jpomc:textures/cadenaresize.png"));
+			RenderSystem.setShaderTexture(0, new ResourceLocation("jpomc:textures/screens/cadenaresize.png"));
 			this.blit(ms, this.leftPos + 76, this.topPos + 94, 0, 0, 10, 13, 10, 13);
 		}
 		if (SicartemereonProcedure.execute(world, x, y, z)) {
-			RenderSystem.setShaderTexture(0, new ResourceLocation("jpomc:textures/cadenaresize.png"));
+			RenderSystem.setShaderTexture(0, new ResourceLocation("jpomc:textures/screens/cadenaresize.png"));
 			this.blit(ms, this.leftPos + 91, this.topPos + 36, 0, 0, 10, 13, 10, 13);
 		}
 		if (SicartemereonProcedure.execute(world, x, y, z)) {
-			RenderSystem.setShaderTexture(0, new ResourceLocation("jpomc:textures/cadenaresize.png"));
+			RenderSystem.setShaderTexture(0, new ResourceLocation("jpomc:textures/screens/cadenaresize.png"));
 			this.blit(ms, this.leftPos + 91, this.topPos + 15, 0, 0, 10, 13, 10, 13);
 		}
 		RenderSystem.disableBlend();

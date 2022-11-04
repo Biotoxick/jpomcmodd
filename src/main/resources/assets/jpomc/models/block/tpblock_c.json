@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "jpomc:blocks/camerablock",
+    "up": "jpomc:blocks/camerablock",
+    "north": "jpomc:blocks/camerablock",
+    "east": "jpomc:blocks/camerablock",
+    "south": "jpomc:blocks/camerablock",
+    "west": "jpomc:blocks/camerablock",
+    "particle": "jpomc:blocks/camerablock"
+  }
+}

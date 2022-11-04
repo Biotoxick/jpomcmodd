@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "jpomc:blocks/computerblock",
+    "up": "jpomc:blocks/computerblock",
+    "north": "jpomc:blocks/computerblock",
+    "east": "jpomc:blocks/computerblock",
+    "south": "jpomc:blocks/computerblock",
+    "west": "jpomc:blocks/computerblock",
+    "particle": "jpomc:blocks/computerblock"
+  }
+}

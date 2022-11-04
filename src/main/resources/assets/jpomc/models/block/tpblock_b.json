@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "jpomc:blocks/mapblock",
+    "up": "jpomc:blocks/mapblock",
+    "north": "jpomc:blocks/mapblock",
+    "east": "jpomc:blocks/mapblock",
+    "south": "jpomc:blocks/mapblock",
+    "west": "jpomc:blocks/mapblock",
+    "particle": "jpomc:blocks/mapblock"
+  }
+}
