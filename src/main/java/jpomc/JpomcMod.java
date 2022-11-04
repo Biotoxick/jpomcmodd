@@ -28,6 +28,7 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import jpomc.init.JpomcModTabs;
 import jpomc.init.JpomcModItems;
+import jpomc.init.JpomcModEntities;
 import jpomc.init.JpomcModBlocks;
 import jpomc.init.JpomcModBlockEntities;
 
@@ -49,7 +50,7 @@ public class JpomcMod {
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 		JpomcModBlocks.REGISTRY.register(bus);
 		JpomcModItems.REGISTRY.register(bus);
-
+		JpomcModEntities.REGISTRY.register(bus);
 		JpomcModBlockEntities.REGISTRY.register(bus);
 
 	}

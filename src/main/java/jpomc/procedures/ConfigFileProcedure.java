@@ -44,24 +44,42 @@ public class ConfigFileProcedure {
 				exception.printStackTrace();
 			}
 			mainobj.addProperty("Configurations JPOMC", "Modifier uniquement les valeurs");
-			mainobj.addProperty("Ne pas supprimer les virgules", "A la moindre erreur supprimer le fichier config et relancer le jeu");
+			mainobj.addProperty("Ne pas supprimer les virgules ni les guillemets",
+					"A la moindre erreur supprimer le fichier config et relancer le jeu");
+			mainobj.addProperty("La commande /jpomcreload", "Permet de mettre \u00E0 jour les modifications du config file sans redemarrer le jeu.");
+			mainobj.addProperty("Laisser un texte vide entre les guillemets d un dialogue", "Desactivera la ligne du NPC");
 			mainobj.addProperty("Instance Timer", "(minutes)");
 			mainobj.addProperty("InstanceTimer", 15);
+			mainobj.addProperty("Commande set Hub", "/sethubpos");
 			mainobj.addProperty("Hub X pos", 0);
 			mainobj.addProperty("Hub Y pos", 0);
 			mainobj.addProperty("Hub Z pos", 0);
+			mainobj.addProperty("Commande set Zone A", "/setzoneapos");
 			mainobj.addProperty("ZoneA X pos", 0);
 			mainobj.addProperty("ZoneA Y pos", 0);
 			mainobj.addProperty("ZoneA Z pos", 0);
+			mainobj.addProperty("Commande set Zone B", "/setzonebpos");
 			mainobj.addProperty("ZoneB X pos", 0);
 			mainobj.addProperty("ZoneB Y pos", 0);
 			mainobj.addProperty("ZoneB Z pos", 0);
+			mainobj.addProperty("Commande set Zone C", "/setzonecpos");
 			mainobj.addProperty("ZoneC X pos", 0);
 			mainobj.addProperty("ZoneC Y pos", 0);
 			mainobj.addProperty("ZoneC Z pos", 0);
+			mainobj.addProperty("Commande set Zone D", "/setzonedpos");
 			mainobj.addProperty("ZoneD X pos", 0);
 			mainobj.addProperty("ZoneD Y pos", 0);
 			mainobj.addProperty("ZoneD Z pos", 0);
+			mainobj.addProperty("DialogueA1", "Texte de dialogue a changer");
+			mainobj.addProperty("DialogueA2", "Texte de dialogue a changer");
+			mainobj.addProperty("DialogueB1", "Texte de dialogue a changer");
+			mainobj.addProperty("DialogueB2", "Texte de dialogue a changer");
+			mainobj.addProperty("DialogueC1", "Texte de dialogue a changer");
+			mainobj.addProperty("DialogueC2", "Texte de dialogue a changer");
+			mainobj.addProperty("DialogueD1", "Texte de dialogue a changer");
+			mainobj.addProperty("DialogueD2", "Texte de dialogue a changer");
+			mainobj.addProperty("DialogueE1", "Texte de dialogue a changer");
+			mainobj.addProperty("DialogueE2", "Texte de dialogue a changer");
 			{
 				Gson mainGSONBuilderVariable = new GsonBuilder().setPrettyPrinting().create();
 				try {
@@ -73,6 +91,16 @@ public class ConfigFileProcedure {
 				}
 			}
 			JpomcModVariables.instancetimer = mainobj.get("InstanceTimer").getAsDouble();
+			JpomcModVariables.DialogueA1 = mainobj.get("DialogueA1").getAsString();
+			JpomcModVariables.DialogueA2 = mainobj.get("DialogueA2").getAsString();
+			JpomcModVariables.DialogueB1 = mainobj.get("DialogueB1").getAsString();
+			JpomcModVariables.DiaogueB2 = mainobj.get("DialogueB2").getAsString();
+			JpomcModVariables.DialogueC1 = mainobj.get("DialogueC1").getAsString();
+			JpomcModVariables.DialogueC2 = mainobj.get("DialogueC2").getAsString();
+			JpomcModVariables.DialogueD1 = mainobj.get("DialogueD1").getAsString();
+			JpomcModVariables.DialogueD2 = mainobj.get("DialogueD2").getAsString();
+			JpomcModVariables.DialogueE1 = mainobj.get("DialogueE1").getAsString();
+			JpomcModVariables.DialogueE2 = mainobj.get("DialogueE2").getAsString();
 		} else {
 			{
 				try {
@@ -101,6 +129,16 @@ public class ConfigFileProcedure {
 					JpomcModVariables.zoneDX = mainobj.get("ZoneD X pos").getAsDouble();
 					JpomcModVariables.zoneDY = mainobj.get("ZoneD Y pos").getAsDouble();
 					JpomcModVariables.zoneDZ = mainobj.get("ZoneD Z pos").getAsDouble();
+					JpomcModVariables.DialogueA1 = mainobj.get("DialogueA1").getAsString();
+					JpomcModVariables.DialogueA2 = mainobj.get("DialogueA2").getAsString();
+					JpomcModVariables.DialogueB1 = mainobj.get("DialogueB1").getAsString();
+					JpomcModVariables.DiaogueB2 = mainobj.get("DialogueB2").getAsString();
+					JpomcModVariables.DialogueC1 = mainobj.get("DialogueC1").getAsString();
+					JpomcModVariables.DialogueC2 = mainobj.get("DialogueC2").getAsString();
+					JpomcModVariables.DialogueD1 = mainobj.get("DialogueD1").getAsString();
+					JpomcModVariables.DialogueD2 = mainobj.get("DialogueD2").getAsString();
+					JpomcModVariables.DialogueE1 = mainobj.get("DialogueE1").getAsString();
+					JpomcModVariables.DialogueE2 = mainobj.get("DialogueE2").getAsString();
 				} catch (IOException e) {
 					e.printStackTrace();
 				}

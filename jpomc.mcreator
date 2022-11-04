@@ -3,7 +3,7 @@
     {
       "name": "Motherboard",
       "type": "item",
-      "sortid": 2,
+      "sortid": 1,
       "compiles": true,
       "locked_code": false,
       "registry_name": "motherboard",
@@ -12,7 +12,7 @@
     {
       "name": "GraphicCard",
       "type": "item",
-      "sortid": 3,
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "graphic_card",
@@ -21,7 +21,7 @@
     {
       "name": "RAM",
       "type": "item",
-      "sortid": 4,
+      "sortid": 3,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ram",
@@ -30,7 +30,7 @@
     {
       "name": "Alimentation",
       "type": "item",
-      "sortid": 6,
+      "sortid": 4,
       "compiles": true,
       "locked_code": false,
       "registry_name": "alimentation",
@@ -39,7 +39,7 @@
     {
       "name": "Aircooling",
       "type": "item",
-      "sortid": 7,
+      "sortid": 5,
       "compiles": true,
       "locked_code": false,
       "registry_name": "aircooling",
@@ -48,7 +48,7 @@
     {
       "name": "JPOMC",
       "type": "tab",
-      "sortid": 10,
+      "sortid": 24,
       "compiles": true,
       "locked_code": false,
       "registry_name": "jpomc"
@@ -56,7 +56,7 @@
     {
       "name": "Boitierpcgui",
       "type": "gui",
-      "sortid": 12,
+      "sortid": 25,
       "compiles": true,
       "locked_code": false,
       "registry_name": "boitierpcgui",
@@ -65,7 +65,7 @@
     {
       "name": "Processor",
       "type": "item",
-      "sortid": 14,
+      "sortid": 6,
       "compiles": true,
       "locked_code": false,
       "registry_name": "processor",
@@ -74,7 +74,7 @@
     {
       "name": "Chassisvide",
       "type": "block",
-      "sortid": 15,
+      "sortid": 7,
       "compiles": true,
       "locked_code": false,
       "registry_name": "chassisvide",
@@ -83,7 +83,7 @@
     {
       "name": "EcranPc",
       "type": "block",
-      "sortid": 16,
+      "sortid": 8,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ecran_pc",
@@ -92,7 +92,7 @@
     {
       "name": "Mouse2",
       "type": "block",
-      "sortid": 17,
+      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mouse_2",
@@ -101,7 +101,7 @@
     {
       "name": "ClavierV2",
       "type": "block",
-      "sortid": 18,
+      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "registry_name": "clavier_v_2",
@@ -110,7 +110,7 @@
     {
       "name": "PCfull",
       "type": "block",
-      "sortid": 19,
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "registry_name": "p_cfull",
@@ -119,7 +119,7 @@
     {
       "name": "Ddh",
       "type": "item",
-      "sortid": 20,
+      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ddh",
@@ -128,7 +128,7 @@
     {
       "name": "Sicartemereon",
       "type": "procedure",
-      "sortid": 21,
+      "sortid": 26,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sicartemereon",
@@ -158,7 +158,7 @@
     {
       "name": "Siprocesseuron",
       "type": "procedure",
-      "sortid": 22,
+      "sortid": 27,
       "compiles": true,
       "locked_code": false,
       "registry_name": "siprocesseuron",
@@ -188,7 +188,7 @@
     {
       "name": "ChassisvideUpdateTick",
       "type": "procedure",
-      "sortid": 23,
+      "sortid": 28,
       "compiles": true,
       "locked_code": false,
       "registry_name": "chassisvide_update_tick",
@@ -217,7 +217,7 @@
     {
       "name": "Pcfullupdatetick",
       "type": "procedure",
-      "sortid": 24,
+      "sortid": 29,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pcfullupdatetick",
@@ -246,7 +246,7 @@
     {
       "name": "Guiecran",
       "type": "gui",
-      "sortid": 25,
+      "sortid": 30,
       "compiles": true,
       "locked_code": false,
       "registry_name": "guiecran",
@@ -255,7 +255,7 @@
     {
       "name": "Ecranallume",
       "type": "block",
-      "sortid": 26,
+      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ecranallume",
@@ -264,7 +264,7 @@
     {
       "name": "Replacescreen",
       "type": "procedure",
-      "sortid": 27,
+      "sortid": 31,
       "compiles": true,
       "locked_code": false,
       "registry_name": "replacescreen",
@@ -293,7 +293,7 @@
     {
       "name": "Replacescreenoff",
       "type": "procedure",
-      "sortid": 28,
+      "sortid": 32,
       "compiles": true,
       "locked_code": false,
       "registry_name": "replacescreenoff",
@@ -322,7 +322,7 @@
     {
       "name": "Mouse2OnBlockRightClicked",
       "type": "procedure",
-      "sortid": 29,
+      "sortid": 33,
       "compiles": true,
       "locked_code": false,
       "registry_name": "mouse_2_on_block_right_clicked",
@@ -351,7 +351,7 @@
     {
       "name": "ClavierV2OnBlockRightClicked",
       "type": "procedure",
-      "sortid": 30,
+      "sortid": 34,
       "compiles": true,
       "locked_code": false,
       "registry_name": "clavier_v_2_on_block_right_clicked",
@@ -380,7 +380,7 @@
     {
       "name": "ChassisvideClientDisplayRandomTick",
       "type": "procedure",
-      "sortid": 31,
+      "sortid": 35,
       "compiles": true,
       "locked_code": false,
       "registry_name": "chassisvide_client_display_random_tick",
@@ -401,7 +401,7 @@
     {
       "name": "Screenguibutton",
       "type": "procedure",
-      "sortid": 32,
+      "sortid": 36,
       "compiles": true,
       "locked_code": false,
       "registry_name": "screenguibutton",
@@ -418,7 +418,7 @@
     {
       "name": "Showcodecondition",
       "type": "procedure",
-      "sortid": 33,
+      "sortid": 37,
       "compiles": true,
       "locked_code": false,
       "registry_name": "showcodecondition",
@@ -436,7 +436,7 @@
     {
       "name": "ZoneAtp",
       "type": "procedure",
-      "sortid": 34,
+      "sortid": 38,
       "compiles": true,
       "locked_code": false,
       "registry_name": "zone_atp",
@@ -457,7 +457,7 @@
     {
       "name": "ConfigFile",
       "type": "procedure",
-      "sortid": 35,
+      "sortid": 39,
       "compiles": true,
       "locked_code": false,
       "registry_name": "config_file",
@@ -469,7 +469,7 @@
     {
       "name": "TpblockA",
       "type": "block",
-      "sortid": 36,
+      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tpblock_a",
@@ -478,7 +478,7 @@
     {
       "name": "TpblockB",
       "type": "block",
-      "sortid": 37,
+      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tpblock_b",
@@ -487,7 +487,7 @@
     {
       "name": "TpblockC",
       "type": "block",
-      "sortid": 38,
+      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tpblock_c",
@@ -496,7 +496,7 @@
     {
       "name": "TpblockD",
       "type": "block",
-      "sortid": 39,
+      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tpblock_d",
@@ -585,6 +585,359 @@
         ]
       },
       "path": "~/Configs"
+    },
+    {
+      "name": "NPCA",
+      "type": "livingentity",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "npca",
+      "path": "~/NPC"
+    },
+    {
+      "name": "NPCARightClickedOnEntity",
+      "type": "procedure",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "npca_right_clicked_on_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/NPC"
+    },
+    {
+      "name": "DespoawnStick",
+      "type": "item",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "despawn_stick",
+      "path": "~/NPC"
+    },
+    {
+      "name": "DespoawnStickLivingEntityIsHitWithItem",
+      "type": "procedure",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "despoawn_stick_living_entity_is_hit_with_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/NPC"
+    },
+    {
+      "name": "NPCAEntityIsHurt",
+      "type": "procedure",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "npca_entity_is_hurt",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/NPC"
+    },
+    {
+      "name": "ConfigReload",
+      "type": "procedure",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "config_reload",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Configs"
+    },
+    {
+      "name": "Adminreload",
+      "type": "command",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "adminreload",
+      "path": "~/Configs"
+    },
+    {
+      "name": "SetHubPosPrc",
+      "type": "procedure",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "set_hub_pos_prc",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Configs"
+    },
+    {
+      "name": "SetHubPos",
+      "type": "command",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "set_hub_pos",
+      "path": "~/Configs"
+    },
+    {
+      "name": "SetZoneAPosPrc",
+      "type": "procedure",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "set_zone_a_pos_prc",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Configs"
+    },
+    {
+      "name": "SetZoneBPosPrc",
+      "type": "procedure",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "set_zone_b_pos_prc",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Configs"
+    },
+    {
+      "name": "SetZoneDPosPrc",
+      "type": "procedure",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "set_zone_d_pos_prc",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Configs"
+    },
+    {
+      "name": "SetZoneCPosPrc",
+      "type": "procedure",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "set_zone_c_pos_prc",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Configs"
+    },
+    {
+      "name": "Setzoneapos",
+      "type": "command",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "setzoneapos",
+      "path": "~/Configs"
+    },
+    {
+      "name": "Setzonebpos",
+      "type": "command",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "setzonebpos",
+      "path": "~/Configs"
+    },
+    {
+      "name": "Setzonecpos",
+      "type": "command",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "setzonecpos",
+      "path": "~/Configs"
+    },
+    {
+      "name": "Setzonedpos",
+      "type": "command",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "setzonedpos",
+      "path": "~/Configs"
+    },
+    {
+      "name": "NPCB",
+      "type": "livingentity",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "npcb",
+      "path": "~/NPC"
+    },
+    {
+      "name": "NpcBdialogue",
+      "type": "procedure",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "npc_bdialogue",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/NPC"
+    },
+    {
+      "name": "NPCC",
+      "type": "livingentity",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "npcc",
+      "path": "~/NPC"
+    },
+    {
+      "name": "CpcCdialogue",
+      "type": "procedure",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cpc_cdialogue",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/NPC"
+    },
+    {
+      "name": "NPCD",
+      "type": "livingentity",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "npcd",
+      "path": "~/NPC"
+    },
+    {
+      "name": "NpcDdialogue",
+      "type": "procedure",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "npc_ddialogue",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/NPC"
+    },
+    {
+      "name": "NPCE",
+      "type": "livingentity",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "npce",
+      "path": "~/NPC"
+    },
+    {
+      "name": "NpcEdialogue",
+      "type": "procedure",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "npc_edialogue",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/NPC"
     }
   ],
   "variable_elements": [
@@ -695,6 +1048,72 @@
       "type": "number",
       "scope": "global",
       "value": "0"
+    },
+    {
+      "name": "DialogueA1",
+      "type": "string",
+      "scope": "global",
+      "value": "\"\""
+    },
+    {
+      "name": "DialogueA2",
+      "type": "string",
+      "scope": "global",
+      "value": "\"\""
+    },
+    {
+      "name": "DialogueB1",
+      "type": "string",
+      "scope": "global",
+      "value": "\"\""
+    },
+    {
+      "name": "DiaogueB2",
+      "type": "string",
+      "scope": "global",
+      "value": "\"\""
+    },
+    {
+      "name": "DialogueC1",
+      "type": "string",
+      "scope": "global",
+      "value": "\"\""
+    },
+    {
+      "name": "DialogueC2",
+      "type": "string",
+      "scope": "global",
+      "value": "\"\""
+    },
+    {
+      "name": "DialogueD1",
+      "type": "string",
+      "scope": "global",
+      "value": "\"\""
+    },
+    {
+      "name": "DialogueD2",
+      "type": "string",
+      "scope": "global",
+      "value": "\"\""
+    },
+    {
+      "name": "DialogueE1",
+      "type": "string",
+      "scope": "global",
+      "value": "\"\""
+    },
+    {
+      "name": "DialogueE2",
+      "type": "string",
+      "scope": "global",
+      "value": "\"\""
+    },
+    {
+      "name": "discute",
+      "type": "logic",
+      "scope": "player_persistent",
+      "value": "false"
     }
   ],
   "sound_elements": [
@@ -741,29 +1160,40 @@
   ],
   "language_map": {
     "en_us": {
-      "block.jpomc.ecran_pc": "Ecran Pc",
-      "block.jpomc.p_cfull": "PC Full",
-      "item.jpomc.ram": "RAM",
+      "item.jpomc.npcd_spawn_egg": "NPCD Spawn Egg",
       "block.jpomc.chassisvide": "Chassis Vide",
       "item.jpomc.aircooling": "Ventirad",
-      "item.jpomc.ddh": "DDH",
-      "block.jpomc.tpblock_b": "Tpblock B",
-      "block.jpomc.tpblock_c": "Tpblock C",
-      "itemGroup.tabjpomc": "JPOMC",
-      "block.jpomc.tpblock_d": "Tpblock D",
       "item.jpomc.graphic_card": "Carte Graphique",
-      "item.jpomc.processor": "Processeur",
       "subtitles.pcrunningsound": "",
-      "subtitles.clicksound": "",
-      "block.jpomc.ecranallume": "Ecran",
-      "block.jpomc.tpblock_a": "Tpblock A",
+      "item.jpomc.npcb_spawn_egg": "NPCB Spawn Egg",
+      "item.jpomc.npca_spawn_egg": "NPCA Spawn Egg",
       "item.jpomc.alimentation": "Alimentation",
       "block.jpomc.mouse_2": "Souris",
+      "subtitles.keyboardsound": "",
+      "item.jpomc.despawn_stick": "Despawn Stick",
+      "subtitles.pconsound": "",
+      "block.jpomc.ecran_pc": "Ecran Pc",
+      "block.jpomc.p_cfull": "PC Full",
+      "item.jpomc.npce_spawn_egg": "NPCE Spawn Egg",
+      "item.jpomc.ram": "RAM",
+      "item.jpomc.npcc_spawn_egg": "NPCC Spawn Egg",
+      "item.jpomc.ddh": "DDH",
+      "block.jpomc.tpblock_b": "Tpblock B",
+      "entity.jpomc.npca": "NPCA",
+      "block.jpomc.tpblock_c": "Tpblock C",
+      "entity.jpomc.npcb": "NPCB",
+      "itemGroup.tabjpomc": "JPOMC",
+      "block.jpomc.tpblock_d": "Tpblock D",
+      "entity.jpomc.npce": "NPCE",
+      "item.jpomc.processor": "Processeur",
+      "subtitles.clicksound": "",
+      "entity.jpomc.npcc": "NPCC",
+      "block.jpomc.ecranallume": "Ecran",
+      "block.jpomc.tpblock_a": "Tpblock A",
+      "entity.jpomc.npcd": "NPCD",
       "item.jpomc.motherboard": "Carte Mere",
       "block.jpomc.clavier_v_2": "Clavier",
-      "subtitles.keyboardsound": "",
-      "subtitles.pcoffsound": "",
-      "subtitles.pconsound": ""
+      "subtitles.pcoffsound": ""
     }
   },
   "foldersRoot": {
@@ -797,6 +1227,10 @@
       },
       {
         "name": "Configs",
+        "children": []
+      },
+      {
+        "name": "NPC",
         "children": []
       }
     ]

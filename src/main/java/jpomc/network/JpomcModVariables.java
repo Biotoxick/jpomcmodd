@@ -52,6 +52,16 @@ public class JpomcModVariables {
 	public static double zoneCZ = 0;
 	public static double zoneDX = 0;
 	public static double zoneDY = 0;
+	public static String DialogueA1 = "\"\"";
+	public static String DialogueA2 = "\"\"";
+	public static String DialogueB1 = "\"\"";
+	public static String DiaogueB2 = "\"\"";
+	public static String DialogueC1 = "\"\"";
+	public static String DialogueC2 = "\"\"";
+	public static String DialogueD1 = "\"\"";
+	public static String DialogueD2 = "\"\"";
+	public static String DialogueE1 = "\"\"";
+	public static String DialogueE2 = "\"\"";
 
 	@SubscribeEvent
 	public static void init(FMLCommonSetupEvent event) {
@@ -97,6 +107,7 @@ public class JpomcModVariables {
 			PlayerVariables clone = ((PlayerVariables) event.getEntity().getCapability(PLAYER_VARIABLES_CAPABILITY, null)
 					.orElse(new PlayerVariables()));
 			clone.shoudshowcode = original.shoudshowcode;
+			clone.discute = original.discute;
 			if (!event.isWasDeath()) {
 			}
 		}
@@ -267,6 +278,7 @@ public class JpomcModVariables {
 
 	public static class PlayerVariables {
 		public boolean shoudshowcode = false;
+		public boolean discute = false;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayer serverPlayer)
@@ -276,12 +288,14 @@ public class JpomcModVariables {
 		public Tag writeNBT() {
 			CompoundTag nbt = new CompoundTag();
 			nbt.putBoolean("shoudshowcode", shoudshowcode);
+			nbt.putBoolean("discute", discute);
 			return nbt;
 		}
 
 		public void readNBT(Tag Tag) {
 			CompoundTag nbt = (CompoundTag) Tag;
 			shoudshowcode = nbt.getBoolean("shoudshowcode");
+			discute = nbt.getBoolean("discute");
 		}
 	}
 
@@ -308,6 +322,7 @@ public class JpomcModVariables {
 					PlayerVariables variables = ((PlayerVariables) Minecraft.getInstance().player.getCapability(PLAYER_VARIABLES_CAPABILITY, null)
 							.orElse(new PlayerVariables()));
 					variables.shoudshowcode = message.data.shoudshowcode;
+					variables.discute = message.data.discute;
 				}
 			});
 			context.setPacketHandled(true);
