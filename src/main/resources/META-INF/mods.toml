@@ -6,9 +6,10 @@ license="Academic Free License v3.0"
 modId="jpomc"
 version="1.0.0"
 displayName="JPOMC"
-credits="Created using mod maker MCreator - https://mcreator.net/about"
-displayURL="https://mcreator.net"
-authors="akhen, MCreator"
+credits="JPOMCdev"
+displayURL="https://jpomc.fr"
+logoFile="logo.png"
+authors="JPOMCdev"
 
 [[dependencies.jpomc]]
     modId="minecraft"
